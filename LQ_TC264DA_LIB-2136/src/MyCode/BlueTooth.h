@@ -1,0 +1,6 @@
+#ifndef MY_NEWCAR_BLUETOOTH_H
+#define MY_NEWCAR_BLUETOOTH_H
+
+void BT_Test(void);
+
+#endif //MY_NEWCAR_BLUETOOTH_H

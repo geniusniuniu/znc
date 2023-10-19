@@ -1,0 +1,34 @@
+#include <IfxCpu.h>
+#include <IfxScuWdt.h>
+#include <Platform_Types.h>
+
+#include "src/APP/LQ_TFT18.h"
+#include "src/Main/Main.h"
+
+
+
+
+int core1_main (void)
+{
+    // 开启CPU总中断
+    IfxCpu_enableInterrupts();
+
+    // 关闭看门狗
+    IfxScuWdt_disableCpuWatchdog (IfxScuWdt_getCpuWatchdogPassword ());
+
+    // 等待CPU0 初始化完成
+    while(!IfxCpu_acquireMutex(&mutexCpu0InitIsOk));
+
+    // 所有含有中断的测试都默认在CPU0中执行，如果需要用CPU1请参考龙邱B站视频。
+    // 程序配套视频地址：https://space.bilibili.com/95313236
+
+  /*  TFTSPI_Init(1);               // TFT2.0初始化  0：竖屏0度   1:横屏90度  2：倒立1820度  3：270度
+    TFTSPI_CLS(u16BLACK);         // 清屏
+    TFTSPI_Show_Logo(0,37);       // 显示龙邱LOGO
+    TFTSPI_P16x16Str(0,0,(unsigned char*)"北京龙邱智能科技",u16RED,u16BLUE);// 字符串显示
+*/
+    while(1)//主循环
+    {
+
+    }
+}
