@@ -156,14 +156,16 @@ Cpu1_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\Libraries\\
 "C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\Libraries\\iLLD\\TC26B\\Tricore\Cpu\Std\Ifx_Types.h" :
 Cpu1_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\Libraries\\iLLD\\TC26B\\Tricore\\Scu\\Std\IfxScuCcu.h"
 "C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\Libraries\\iLLD\\TC26B\\Tricore\\Scu\\Std\IfxScuCcu.h" :
-Cpu1_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_CAMERA.h"
-"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_CAMERA.h" :
-Cpu1_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_MT9V034.h"
-"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_MT9V034.h" :
 Cpu1_Main.o :	..\src\Mycode\My_Camera.h
 ..\src\Mycode\My_Camera.h :
 Cpu1_Main.o :	..\src\APP\LQ_TFT18.h
 ..\src\APP\LQ_TFT18.h :
+Cpu1_Main.o :	..\src\MyCode\MyMPU6050.h
+..\src\MyCode\MyMPU6050.h :
+Cpu1_Main.o :	"D:\ADS\ADSAPP\AURIX-Studio-1.7.2\plugins\com.infineon.aurix.tools_1.7.2\build_system\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h"
+"D:\ADS\ADSAPP\AURIX-Studio-1.7.2\plugins\com.infineon.aurix.tools_1.7.2\build_system\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h" :
+Cpu1_Main.o :	"D:\ADS\ADSAPP\AURIX-Studio-1.7.2\plugins\com.infineon.aurix.tools_1.7.2\build_system\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h"
+"D:\ADS\ADSAPP\AURIX-Studio-1.7.2\plugins\com.infineon.aurix.tools_1.7.2\build_system\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h" :
 Cpu1_Main.o :	..\src\Main\Main.h
 ..\src\Main\Main.h :
 Cpu1_Main.o :	..\Libraries\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h
@@ -172,11 +174,7 @@ Cpu1_Main.o :	..\Libraries\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h
 ..\Libraries\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h :
 Cpu1_Main.o :	..\src\Driver\include.h
 ..\src\Driver\include.h :
-Cpu1_Main.o :	..\src\MyCode\MyMPU6050.h
-..\src\MyCode\MyMPU6050.h :
-Cpu1_Main.o :	..\src\MyCode\PID.h
-..\src\MyCode\PID.h :
-Cpu1_Main.o :	"D:\ADS\ADSAPP\AURIX-Studio-1.7.2\plugins\com.infineon.aurix.tools_1.7.2\build_system\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h"
-"D:\ADS\ADSAPP\AURIX-Studio-1.7.2\plugins\com.infineon.aurix.tools_1.7.2\build_system\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h" :
-Cpu1_Main.o :	"D:\ADS\ADSAPP\AURIX-Studio-1.7.2\plugins\com.infineon.aurix.tools_1.7.2\build_system\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h"
-"D:\ADS\ADSAPP\AURIX-Studio-1.7.2\plugins\com.infineon.aurix.tools_1.7.2\build_system\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h" :
+Cpu1_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_CAMERA.h"
+"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_CAMERA.h" :
+Cpu1_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_MT9V034.h"
+"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_MT9V034.h" :

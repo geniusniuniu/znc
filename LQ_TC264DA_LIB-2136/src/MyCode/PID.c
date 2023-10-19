@@ -11,6 +11,7 @@ PID_Structure PID_Struct;
 float Pitch_Angle_Mid = -0.5;
 float Roll_Angle_Mid = 4.4;
 float image_Error = 0;
+float Exp_MidLine = 50;
 
 float Pid_Out;
 float PID_Out_F;
@@ -167,7 +168,6 @@ void Front_Speed_PI(PID_Structure* pid,int Enc_Front)
 void Turn_P(PID_Structure* pid, uint8_t Act_mid_line,float Gyro)
 {
     static float Error_Integral,Error_Last;
-    float Exp_MidLine = 50;
     image_Error = (float)Act_mid_line - Exp_MidLine; //实际-期望
     image_Error = 0.7 * image_Error + Error_Last * 0.3;                                              //一阶低通滤波器
     Error_Integral += image_Error ;

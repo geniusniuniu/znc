@@ -57,7 +57,7 @@ void CCU60_CH1_IRQHandler (void)
     {
         Timer_Count1 = 0;
         Speed_PI(&PID_Struct,EncVal_L,EncVal_R);
-        Turn_P(&PID_Struct,mid_line,gyro[2]);
+        Turn_P(&PID_Struct,median,gyro[2]);
     }
     // ##########        前后平衡环       ##################
     //       ########  速度环 -> 角度环  #########

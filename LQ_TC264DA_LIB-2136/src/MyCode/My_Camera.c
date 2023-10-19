@@ -638,64 +638,106 @@ void Round_fill(uint8(*image)[LCDW], uint8 *l_border, uint8 *r_border, uint16 to
                                          uint16 *dir_l, uint16 *dir_r, uint16(*points_l)[2], uint16(*points_r)[2])
 {
 
-    uint8 break_num_y = 0,break_num_x = 0;
-    float slope_l_rate = 0, intercept_l = 0;
-    float slope_r_rate = 0, intercept_r = 0;
-    static uint8 step=0;
-
+    uint8 break_numl_y = 0,break_numl_x = 0;
+        uint8 break_numr_y = 0,break_numr_x = 0;
+        float slope_l_rate = 0, intercept_l = 0;
+        float slope_r_rate = 0, intercept_r = 0;
+        static uint8 stepl=0;
+        //static uint8 stepr=0;
     for (int i = 1; i < total_num_l; i++)
-    {
-        if (points_l[i][1] > 20)
         {
-            if (step==0 || step==1)
+            if (points_l[i][1] > 20)
             {
-                if ( (dir_l[i-2]==5) && (dir_l[i-1]==5) && (dir_l[i]==4)  && (dir_l[i+3]==3||dir_l[i+3]==4) &&
-                        (dir_l[i+4]==3||dir_l[i+4]==4) )
+                if(stepl == 0||stepl == 1)
                 {
-                    break_num_y = (uint8)points_l[i][1];//传递y坐标
-                    break_num_x = (uint8)points_l[i][0];
+                    if ( (dir_l[i-2]==5) && (dir_l[i-1]==5) && (dir_l[i]==4)  && (dir_l[i+3]==3||dir_l[i+3]==4) &&
+                            (dir_l[i+4]==3||dir_l[i+4]==4) )
+                    {
+                        break_numl_y = (uint8)points_l[i][1];//传递y坐标
+                        break_numl_x = (uint8)points_l[i][0];
 
-                    step = 1;
+                        stepl = 1;
+                    }
+                }
+                if(stepl == 1||stepl == 2)
+                {
+                    if ( (dir_l[i-4]==7) && (dir_l[i]==6||dir_l[i]==7) && (dir_l[i+4]==5||dir_l[i+4]==4) )
+                    {
+                        break_numl_y = (uint8)points_l[i][1];
+                        break_numl_x = (uint8)points_l[i][0];
+
+                        stepl = 2;
+                    }
+                }
+                if(stepl == 2||stepl == 3)
+                {
+                    if (i < 30)
+                    {
+                        if((dir_r[i]==2||dir_r[i]==3))
+                        {
+                            break_numr_y = (uint8)points_r[i][1];
+                            break_numr_x = (uint8)points_r[i][0];
+                            stepl = 3;
+                        }
+                    }
+
+                }
+                if(stepl == 3||stepl == 4)
+                {
+                   if ( (dir_l[i-4]==7) && (dir_l[i]==6||dir_l[i]==7) && (dir_l[i+4]==5||dir_l[i+4]==4) )
+                   {
+                       break_numl_y = (uint8)points_l[i][1];
+                       break_numl_x = (uint8)points_l[i][0];
+
+                       stepl = 4;
+                   }
+               }
+            }
+            else
+                break;
+            }
+    if (stepl==1 && break_numl_y)
+        {
+            slope_l_rate = 1.0*(break_numl_x-2)/(break_numl_y-78);
+            intercept_l = break_numl_x - slope_l_rate*break_numl_y;
+            for (int i = break_numl_y; i<LCDH-1; i++)
+            {
+                l_border[i] = slope_l_rate * (i)+intercept_l;//y = kx+b
+                l_border[i] = (uint8)limit_a_b(l_border[i], border_min, border_max);//限幅
+            }
+        }
+        if (stepl == 2 && break_numl_y)
+        {
+            slope_r_rate = 1.0*(break_numl_x-97)/(break_numl_y-78);
+            intercept_r = break_numl_x - slope_r_rate*break_numl_y;
+            for (int i = break_numl_y; i<LCDH-1; i++)
+            {
+                r_border[i] = slope_r_rate * (i)+intercept_r;//y = kx+b
+                r_border[i] = (uint8)limit_a_b(r_border[i], border_min, border_max);//限幅
+            }
+        }
+
+        if (stepl==3 && break_numr_y)
+           {
+                slope_r_rate = 1.0*(break_numr_x-20)/(break_numr_y-30);
+                intercept_r = break_numr_x - slope_r_rate*break_numr_y;
+                for (int i = break_numr_y; i>30; i--)
+                {
+                    r_border[i] = slope_r_rate * (i)+intercept_r;;//y = kx+b
+                    r_border[i] = (uint8)limit_a_b(r_border[i], border_min, border_max);//限幅
+                }
+           }
+        if (stepl==4 && break_numl_y)
+            {
+                slope_l_rate = 1.0*(break_numl_x-0)/(break_numl_y-80);
+                intercept_l = break_numl_x - slope_l_rate*break_numl_y;
+                for (int i = break_numl_y; i<LCDH-1; i++)
+                {
+                    l_border[i] = slope_l_rate * (i)+intercept_l;//y = kx+b
+                    l_border[i] = (uint8)limit_a_b(l_border[i], border_min, border_max);//限幅
                 }
             }
-
-            if (step==1 || step==2)
-            {
-                if ( (dir_l[i-4]==7) && (dir_l[i]==6||dir_l[i]==7) && (dir_l[i+4]==5||dir_l[i+4]==4) )
-                {
-                    break_num_y = (uint8)points_l[i][1];
-                    break_num_x = (uint8)points_l[i][0];
-
-                    step = 2;
-                }
-            }
-        }
-        else
-            break;
-    }
-
-    if (step==1 && break_num_y)
-    {
-        slope_l_rate = 1.0*(break_num_x-2)/(break_num_y-78);
-        intercept_l = break_num_x - slope_l_rate*break_num_y;
-        for (int i = break_num_y; i<LCDH-1; i++)
-        {
-            l_border[i] = slope_l_rate * (i)+intercept_l;//y = kx+b
-            l_border[i] = (uint8)limit_a_b(l_border[i], border_min, border_max);//限幅
-        }
-    }
-    if (step == 2 && break_num_y)
-    {
-        slope_r_rate = 1.0*(break_num_x-97)/(break_num_y-78);
-        intercept_r = break_num_x - slope_r_rate*break_num_y;
-        for (int i = break_num_y; i<LCDH-1; i++)
-        {
-            r_border[i] = slope_r_rate * (i)+intercept_r;//y = kx+b
-            r_border[i] = (uint8)limit_a_b(r_border[i], border_min, border_max);//限幅
-        }
-    }
 }
-
 
 void UartSendReport(unsigned char img[LCDH][LCDW])
 {

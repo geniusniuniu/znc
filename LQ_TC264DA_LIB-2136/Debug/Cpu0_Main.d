@@ -278,11 +278,15 @@ Cpu0_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\Libraries\\
 "C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\Libraries\\iLLD\\TC26B\\Tricore\Port\Std\IfxPort.h" :
 Cpu0_Main.o :	..\src\MyCode\My_Timer.h
 ..\src\MyCode\My_Timer.h :
-Cpu0_Main.o :	..\src\MyCode\PID.h
-..\src\MyCode\PID.h :
 Cpu0_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_IIC_Gyro.h"
 "C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_IIC_Gyro.h" :
 Cpu0_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\Libraries\\iLLD\\TC26B\\Tricore\Cpu\Std\Platform_Types.h"
 "C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\Libraries\\iLLD\\TC26B\\Tricore\Cpu\Std\Platform_Types.h" :
 Cpu0_Main.o :	..\src\MyCode\MyKalmanfilter.h
 ..\src\MyCode\MyKalmanfilter.h :
+Cpu0_Main.o :	..\src\MyCode\PID.h
+..\src\MyCode\PID.h :
+Cpu0_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_CAMERA.h"
+"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_CAMERA.h" :
+Cpu0_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_MT9V034.h"
+"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_MT9V034.h" :

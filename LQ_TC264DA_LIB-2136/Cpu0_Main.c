@@ -18,15 +18,20 @@
 #include "src/MyCode/MyMPU6050.h"
 #include "../Driver/LQ_GPT12_ENC.h"
 #include "src/MyCode/My_Timer.h"
-#include "src/MyCode/PID.h"
 #include "LQ_IIC_Gyro.h"
 #include "src/MyCode/MyKalmanfilter.h"
+#include "src/MyCode/PID.h"
+#include "LQ_CAMERA.h"
+
+#pragma section all "cpu0_dsram"
 
 App_Cpu0 g_AppCpu0;                       // brief CPU 0 global data
 IfxCpu_mutexLock mutexCpu0InitIsOk = 1;   // CPU0 初始化完成标志位
 volatile char mutexCpu0TFTIsOk=0;         // CPU1 0占用/1释放 TFT
 
 char k0,k1;
+
+float PIDParam;
 
 float P1 = 0.5;
 float P2;
@@ -39,20 +44,23 @@ int core0_main (void)
 {
     Misc_Init();
     PIDparam_Init();
+    //PIDParam = PID_Struct.Kd_omegar;
     while(1)    //主循环
     {
-//        Show_EncVal();
-//        Show_MPUVal();
+        Show_EncVal();
+        Show_MPUVal();
 
         k0 = KEY_Read(KEY0);
         k1 = KEY_Read(KEY1);
         if(k0==0)
         {
-            PID_Struct.Turn_Kp += 5;
+            PID_Struct.Ki_Angle += 0.05;
+            //PIDParam = PID_Struct.Kd_omegar;
         }
         if(k1==0)
         {
-            PID_Struct.Turn_Kp -= 5;
+            PID_Struct.Ki_Angle -= 0.05;
+            //PIDParam = PID_Struct.Kd_omegar;
         }
         else
             Flag_Status = 0;
@@ -62,22 +70,22 @@ int core0_main (void)
 
 void PIDparam_Init(void)
 {
-    PID_Struct.Kp_omegar = 60;//50;         +
+    PID_Struct.Kp_omegar = 50;//50;         +
     PID_Struct.Kd_omegar = 40;  //40        +
     PID_Struct.Kp_Angle = -100; //           -
-    PID_Struct.Kd_Angle = -5.6; //-6.2      -
-    PID_Struct.Ki_Angle = -2.20;//-1.85     -
-    PID_Struct.Kp_Speed = -0.12;//           -
+    PID_Struct.Kd_Angle = -4.70; //-4.70      -
+    PID_Struct.Ki_Angle = -1.825;//-1.825     -
+    PID_Struct.Kp_Speed = -0.13;//           -
     PID_Struct.Ki_Speed = PID_Struct.Kp_Speed / 200;
 
-    PID_Struct.Kp_Balance = 270;//280       +
-    PID_Struct.Ki_Balance = 40;// 40        +
-    PID_Struct.Kd_Balance = 17.8;//17.8     +
+    PID_Struct.Kp_Balance = 270;//273       +
+    PID_Struct.Ki_Balance = 35;// 35        +
+    PID_Struct.Kd_Balance = 17;//17.6     +
     PID_Struct.Kp_Front_Speed = -0.08;//    -
     PID_Struct.Ki_Front_Speed = PID_Struct.Kp_Front_Speed / 200;
-    PID_Struct.Front_expect_value = 10;//;
+    PID_Struct.Front_expect_value = 1.3;//;
 
-    PID_Struct.Turn_Kp = 30;//60;
+    PID_Struct.Turn_Kp = 0;//              +;
     PID_Struct.Turn_Ki = 0;//-15;
     PID_Struct.Turn_Kd = 0;//-25;
 }
@@ -95,8 +103,8 @@ void Misc_Init(void)
     GPIO_LED_Init();
     My_EncInit();
     MyTimer_Init();
-//    TFTSPI_Init(0);        //LCD初始化 0：横屏 1:竖屏
-//    TFTSPI_CLS(u16BLUE);   //蓝色屏幕
+    TFTSPI_Init(0);        //LCD初始化 0：横屏 1:竖屏
+    TFTSPI_CLS(u16BLUE);   //蓝色屏幕
 }
 
 void CPU_Init(void)
@@ -122,3 +130,5 @@ void CPU_Init(void)
     // 切记CPU0,CPU1...不可以同时开启屏幕显示，否则冲突不显示
     mutexCpu0TFTIsOk=0;         // CPU1： 0占用/1释放 TFT
 }
+
+#pragma section all restore
