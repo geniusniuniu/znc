@@ -3,9 +3,13 @@
 
 #include <stdio.h>
 #include "stdint.h"
-extern float Pitch_Angle_Mid;
-extern float Roll_Angle_Mid;
+
+#define Exp_MidLine  50.0
+#define Pitch_Angle_Mid  -0.5
+#define Roll_Angle_Mid  4.1
+
 extern float image_Error;
+extern float Dynamic_zero_Set;
 
 extern char Flag_Stop;
 extern char Flag_Status;

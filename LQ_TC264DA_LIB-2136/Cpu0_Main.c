@@ -44,22 +44,23 @@ int core0_main (void)
 {
     Misc_Init();
     PIDparam_Init();
-    //PIDParam = PID_Struct.Kd_omegar;
+    KalmanCreate(&Zero_Kalman, 10, 200);
+
     while(1)    //Ö÷Ñ­»·
     {
-        Show_EncVal();
-        Show_MPUVal();
+//        Show_EncVal();
+//        Show_MPUVal();
 
         k0 = KEY_Read(KEY0);
         k1 = KEY_Read(KEY1);
         if(k0==0)
         {
-            PID_Struct.Ki_Angle += 0.05;
+            PID_Struct.Kd_Balance += 0.5;
             //PIDParam = PID_Struct.Kd_omegar;
         }
         if(k1==0)
         {
-            PID_Struct.Ki_Angle -= 0.05;
+            PID_Struct.Kd_Balance -= 0.5;
             //PIDParam = PID_Struct.Kd_omegar;
         }
         else
@@ -73,21 +74,21 @@ void PIDparam_Init(void)
     PID_Struct.Kp_omegar = 50;//50;         +
     PID_Struct.Kd_omegar = 40;  //40        +
     PID_Struct.Kp_Angle = -100; //           -
-    PID_Struct.Kd_Angle = -4.70; //-4.70      -
+    PID_Struct.Kd_Angle = -4.5; //-4.70      -
     PID_Struct.Ki_Angle = -1.825;//-1.825     -
     PID_Struct.Kp_Speed = -0.13;//           -
     PID_Struct.Ki_Speed = PID_Struct.Kp_Speed / 200;
 
-    PID_Struct.Kp_Balance = 270;//273       +
-    PID_Struct.Ki_Balance = 35;// 35        +
-    PID_Struct.Kd_Balance = 17;//17.6     +
-    PID_Struct.Kp_Front_Speed = -0.08;//    -
+    PID_Struct.Kp_Balance = 275;//270      +
+    PID_Struct.Ki_Balance = 26.5;// 28        +
+    PID_Struct.Kd_Balance = 17.3;//16.0     +
+    PID_Struct.Kp_Front_Speed = -0.081;//-0.08    -
     PID_Struct.Ki_Front_Speed = PID_Struct.Kp_Front_Speed / 200;
-    PID_Struct.Front_expect_value = 1.3;//;
+    PID_Struct.Front_expect_value = 10;//-9.5;
 
-    PID_Struct.Turn_Kp = 0;//              +;
-    PID_Struct.Turn_Ki = 0;//-15;
-    PID_Struct.Turn_Kd = 0;//-25;
+    PID_Struct.Turn_Kp = -80;//                  -;
+    PID_Struct.Turn_Ki = 15;//                   +
+    PID_Struct.Turn_Kd = 0.05;//;                  +
 }
 
 
@@ -103,8 +104,8 @@ void Misc_Init(void)
     GPIO_LED_Init();
     My_EncInit();
     MyTimer_Init();
-    TFTSPI_Init(0);        //LCD³õÊ¼»¯ 0£ººáÆÁ 1:ÊúÆÁ
-    TFTSPI_CLS(u16BLUE);   //À¶É«ÆÁÄ»
+//    TFTSPI_Init(0);        //LCD³õÊ¼»¯ 0£ººáÆÁ 1:ÊúÆÁ
+//    TFTSPI_CLS(u16BLUE);   //À¶É«ÆÁÄ»
 }
 
 void CPU_Init(void)

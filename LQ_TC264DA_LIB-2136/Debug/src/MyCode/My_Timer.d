@@ -258,3 +258,5 @@ c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/My_Timer.o :	c:
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/src/User/LQ_MotorServo.h :
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/My_Timer.o :	../src/MyCode/My_camera.h
 ../src/MyCode/My_camera.h :
+c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/My_Timer.o :	../src/MyCode/MyKalmanfilter.h
+../src/MyCode/MyKalmanfilter.h :

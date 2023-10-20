@@ -4,6 +4,7 @@
 #include "MyEncoder.h"
 #include "math.h"
 #include "stdint.h"
+
 extKalman_t Zero_Kalman;
 
 /** 一阶卡尔曼滤波器来自RoboMaster论坛
@@ -73,8 +74,9 @@ float Dynamic_zero_cale(void) {
     Limit_Out(&image_Error, 30, -30);//限幅
     if (zero_set )//摄像头弯道循迹时候
     {
-        float encoder_bdc1 = (EncVal_F) * 1;
-        zero_set = KalmanFilter(&Zero_Kalman, atan((0.000001 * encoder_bdc1 * encoder_bdc1) * (-image_Error) * 0.0125));
+        float encoder_bdc1 = (EncVal_F) * 1.0;
+//        zero_set = KalmanFilter(&Zero_Kalman, atan((0.000001 * encoder_bdc1 * encoder_bdc1) * (-image_Error) * 0.0125));
+        zero_set = KalmanFilter(&Zero_Kalman, atan((0.00001 * encoder_bdc1 * encoder_bdc1) * (-image_Error) * 0.0125));
     }
     else {
         // Buzzer(0);

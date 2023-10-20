@@ -7,6 +7,7 @@
 #include "MyEncoder.h"
 #include "LQ_MotorServo.h"
 #include "My_camera.h"
+#include "MyKalmanfilter.h"
 
 int Timer_Count = 0;
 float Pid_Out_L;
@@ -16,7 +17,6 @@ float Pid_Out_F;
 int Timer_Count0;
 int Timer_Count1;
 int Timer_Count2;
-
 
 void MyTimer_Init(void)
 {
@@ -49,9 +49,9 @@ void CCU60_CH1_IRQHandler (void)
     if(Timer_Count0 == 5)
     {
         Timer_Count0 = 0;
+        Dynamic_zero_Set = Dynamic_zero_cale();
         PID_Struct.Angle_expect_value = PID_Struct.Pid_Speed_out + Pitch_Angle_Mid;
         Angle_PID(&PID_Struct,Pitch,gyro[0]);
-        //Pitch_Angle_Mid = -0.85;
     }
     if(Timer_Count1 == 50)
     {

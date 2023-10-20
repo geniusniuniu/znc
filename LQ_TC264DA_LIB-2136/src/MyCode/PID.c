@@ -8,10 +8,9 @@
 
 PID_Structure PID_Struct;
 
-float Pitch_Angle_Mid = -0.5;
-float Roll_Angle_Mid = 4.4;
 float image_Error = 0;
-float Exp_MidLine = 50;
+
+float Dynamic_zero_Set;
 
 float Pid_Out;
 float PID_Out_F;
@@ -103,7 +102,7 @@ void Angle_PID(PID_Structure* pid,float Angle,float Gyro_x)
 {
     static float Error_Integral;
     float Error;
-    Error = Angle - pid->Angle_expect_value;
+    Error = Angle - pid->Angle_expect_value - 10.5*Dynamic_zero_Set;
     Error_Integral += Error;
     Limit_Out(&Error_Integral,100,-100); //如果系统存在较大的干扰或扰动，可以设置较小的积分限幅，以减小积分项的作用，防止系统的超调和不稳定。
     //if(Stop_Flag == 1) {Error = 0;Error_Integral = 0;}
@@ -156,7 +155,7 @@ void Front_Speed_PI(PID_Structure* pid,int Enc_Front)
     Encoder_Integral += Encoder;
     Encoder_Last = Encoder;
 
-    Limit_Out(&Encoder_Integral, 1000, -1000);
+    Limit_Out(&Encoder_Integral, 1200, -1200);
     //if(Stop_Flag == 1) {Encoder = 0; Encoder_Integral = 0;}
     pid->Pid_Front_Speed_out = Encoder * pid->Kp_Front_Speed +
                                     Encoder_Integral *  pid->Ki_Front_Speed;   //获取最终数值
