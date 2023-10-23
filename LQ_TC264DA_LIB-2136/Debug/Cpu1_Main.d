@@ -178,3 +178,7 @@ Cpu1_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ
 "C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_CAMERA.h" :
 Cpu1_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_MT9V034.h"
 "C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_MT9V034.h" :
+Cpu1_Main.o :	..\src\MyCode\PID.h
+..\src\MyCode\PID.h :
+Cpu1_Main.o :	"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_MPU6050_DMP.h"
+"C:\\Users\\gyy123\\Desktop\\znc\\LQ_TC264DA_LIB-2136\\src\\APP\LQ_MPU6050_DMP.h" :

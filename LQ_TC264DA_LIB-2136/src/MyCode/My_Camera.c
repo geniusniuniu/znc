@@ -424,16 +424,17 @@ void image_draw_rectan(uint8(*image)[LCDW])
     }
 }
 
-uint8_t median=0;
+int median=0;
+
 unsigned char weight_list[40]={
         2,2,2,2,2,
         4,4,4,4,4,
+        6,6,6,6,6,
+        10,10,10,10,10,
+        10,10,10,10,10,
         7,7,7,7,7,
-        10,10,10,10,10,
-        10,10,10,10,10,
-        8,8,8,8,8,
         5,5,5,5,5,
-        3,3,3,3,3
+        3,3,3,3,3,
 };
 
 void Calculates_median(void)

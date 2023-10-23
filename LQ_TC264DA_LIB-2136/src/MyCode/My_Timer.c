@@ -8,6 +8,7 @@
 #include "LQ_MotorServo.h"
 #include "My_camera.h"
 #include "MyKalmanfilter.h"
+#include <math.h>
 
 int Timer_Count = 0;
 float Pid_Out_L;
@@ -17,6 +18,7 @@ float Pid_Out_F;
 int Timer_Count0;
 int Timer_Count1;
 int Timer_Count2;
+int Timer_Count3;
 
 void MyTimer_Init(void)
 {
@@ -37,6 +39,7 @@ void CCU60_CH1_IRQHandler (void)
     Timer_Count0++;
     Timer_Count1++;
     Timer_Count2++;
+    Timer_Count3++;
 
     // 超出最大角度动量轮和行进电机立即停止
     Motor_Stop();
@@ -49,22 +52,26 @@ void CCU60_CH1_IRQHandler (void)
     if(Timer_Count0 == 5)
     {
         Timer_Count0 = 0;
-        Dynamic_zero_Set = Dynamic_zero_cale();
         PID_Struct.Angle_expect_value = PID_Struct.Pid_Speed_out + Pitch_Angle_Mid;
         Angle_PID(&PID_Struct,Pitch,gyro[0]);
+    }
+    if(Timer_Count3 == 25)
+    {
+        Timer_Count3 = 0;
+        Turn_P(&PID_Struct,median,gyro[2]);
     }
     if(Timer_Count1 == 50)
     {
         Timer_Count1 = 0;
         Speed_PI(&PID_Struct,EncVal_L,EncVal_R);
-        Turn_P(&PID_Struct,median,gyro[2]);
     }
-    // ##########        前后平衡环       ##################
+    //##########        前后平衡环       ##################
     //       ########  速度环 -> 角度环  #########
     if(Timer_Count2 == 10)
     {
         Timer_Count2 = 0;
-        PID_Struct.Balance_expect_value = PID_Struct.Pid_Front_Speed_out + Roll_Angle_Mid;
+        Dynamic_zero_Set = atan((0.000001 * EncVal_F * EncVal_F)*0.125)*180/3.14159;
+        PID_Struct.Balance_expect_value = PID_Struct.Pid_Front_Speed_out + Roll_Angle_Mid - Dynamic_zero_Set;
         Front_Balance_PID(&PID_Struct,Roll,gyro[1]);
         Front_Speed_PI(&PID_Struct,EncVal_F);
     }

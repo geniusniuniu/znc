@@ -24,7 +24,7 @@ extern unsigned char flag_centre_right_point;//右拐点标志位
 extern unsigned char flag_centre_left_point;//左拐点标志位
 extern unsigned char ringflag;
 
-extern uint8_t median;
+extern int median;
 
 ///////////////////////     要用的函数      ////////////////////////////////
 void Image(void);

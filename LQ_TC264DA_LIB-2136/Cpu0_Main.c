@@ -19,7 +19,6 @@
 #include "../Driver/LQ_GPT12_ENC.h"
 #include "src/MyCode/My_Timer.h"
 #include "LQ_IIC_Gyro.h"
-#include "src/MyCode/MyKalmanfilter.h"
 #include "src/MyCode/PID.h"
 #include "LQ_CAMERA.h"
 
@@ -31,11 +30,6 @@ volatile char mutexCpu0TFTIsOk=0;         // CPU1 0占用/1释放 TFT
 
 char k0,k1;
 
-float PIDParam;
-
-float P1 = 0.5;
-float P2;
-
 void CPU_Init(void);
 void PIDparam_Init(void);
 void Misc_Init(void);
@@ -44,12 +38,11 @@ int core0_main (void)
 {
     Misc_Init();
     PIDparam_Init();
-    KalmanCreate(&Zero_Kalman, 10, 200);
 
     while(1)    //主循环
     {
-//        Show_EncVal();
-//        Show_MPUVal();
+        Show_EncVal();
+        Show_MPUVal();
 
         k0 = KEY_Read(KEY0);
         k1 = KEY_Read(KEY1);
@@ -60,35 +53,34 @@ int core0_main (void)
         }
         if(k1==0)
         {
-            PID_Struct.Kd_Balance -= 0.5;
+            PID_Struct.Kd_Balance -=0.5;
             //PIDParam = PID_Struct.Kd_omegar;
         }
-        else
-            Flag_Status = 0;
     }
     return 0;
 }
 
+
 void PIDparam_Init(void)
 {
     PID_Struct.Kp_omegar = 50;//50;         +
-    PID_Struct.Kd_omegar = 40;  //40        +
+    PID_Struct.Kd_omegar = 41.5;  //40        +
     PID_Struct.Kp_Angle = -100; //           -
-    PID_Struct.Kd_Angle = -4.5; //-4.70      -
-    PID_Struct.Ki_Angle = -1.825;//-1.825     -
+    PID_Struct.Kd_Angle = -4.2; //-4.4     -
+    PID_Struct.Ki_Angle = -1.80;//-1.825     -
     PID_Struct.Kp_Speed = -0.13;//           -
     PID_Struct.Ki_Speed = PID_Struct.Kp_Speed / 200;
 
-    PID_Struct.Kp_Balance = 275;//270      +
-    PID_Struct.Ki_Balance = 26.5;// 28        +
-    PID_Struct.Kd_Balance = 17.3;//16.0     +
-    PID_Struct.Kp_Front_Speed = -0.081;//-0.08    -
+    PID_Struct.Kp_Balance = 292;//270      +
+    PID_Struct.Ki_Balance = 31;// 28        +
+    PID_Struct.Kd_Balance = 15.4;//16.0     +
+    PID_Struct.Kp_Front_Speed = -0.057;//-0.08    -
     PID_Struct.Ki_Front_Speed = PID_Struct.Kp_Front_Speed / 200;
-    PID_Struct.Front_expect_value = 10;//-9.5;
+    PID_Struct.Front_expect_value = 10;//-9.5;     /////调节角度环和动态零点的参数
 
-    PID_Struct.Turn_Kp = -80;//                  -;
-    PID_Struct.Turn_Ki = 15;//                   +
-    PID_Struct.Turn_Kd = 0.05;//;                  +
+//    PID_Struct.Turn_Kp = 50;//             +;
+//    PID_Struct.Turn_Ki = 0;// 15                +
+//    PID_Struct.Turn_Kd = 0;//; 0.05                 +
 }
 
 
@@ -104,8 +96,8 @@ void Misc_Init(void)
     GPIO_LED_Init();
     My_EncInit();
     MyTimer_Init();
-//    TFTSPI_Init(0);        //LCD初始化 0：横屏 1:竖屏
-//    TFTSPI_CLS(u16BLUE);   //蓝色屏幕
+    TFTSPI_Init(0);        //LCD初始化 0：横屏 1:竖屏
+    TFTSPI_CLS(u16BLUE);   //蓝色屏幕
 }
 
 void CPU_Init(void)

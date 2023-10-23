@@ -43,6 +43,7 @@ void KalmanCreate(extKalman_t *p,float T_Q,float T_R)
     p->X_mid = p->X_last;
 }
 
+
 /**
   * @name   KalmanFilter
   * @brief  卡尔曼滤波器
@@ -71,17 +72,13 @@ float KalmanFilter(extKalman_t* p,float dat)
 //动态零点计算
 float Dynamic_zero_cale(void) {
     float zero_set = 0;
-    Limit_Out(&image_Error, 30, -30);//限幅
-    if (zero_set )//摄像头弯道循迹时候
-    {
-        float encoder_bdc1 = (EncVal_F) * 1.0;
-//        zero_set = KalmanFilter(&Zero_Kalman, atan((0.000001 * encoder_bdc1 * encoder_bdc1) * (-image_Error) * 0.0125));
-        zero_set = KalmanFilter(&Zero_Kalman, atan((0.00001 * encoder_bdc1 * encoder_bdc1) * (-image_Error) * 0.0125));
-    }
-    else {
-        // Buzzer(0);
-        zero_set = KalmanFilter(&Zero_Kalman, 0);
-    }
-    //zero_set = limit(zero_set, -0.8f, 0.8f);
+    float encoder_bdc1 = (EncVal_F) * 1.0;
+
+    //环岛压弯
+    //zero_set = KalmanFilter(&Zero_Kalman, atan((0.000001 * encoder_bdc1 * encoder_bdc1) * (-image_Error) * 0.0125));
+
+    //直线压头
+    zero_set = KalmanFilter(&Zero_Kalman, atan((0.000001 * encoder_bdc1 * encoder_bdc1)*0.125));
+    //Limit_Out(&zero_set, 0.8, -0.8);
     return zero_set;
 }

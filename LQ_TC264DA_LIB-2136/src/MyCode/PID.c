@@ -102,7 +102,7 @@ void Angle_PID(PID_Structure* pid,float Angle,float Gyro_x)
 {
     static float Error_Integral;
     float Error;
-    Error = Angle - pid->Angle_expect_value - 10.5*Dynamic_zero_Set;
+    Error = Angle - pid->Angle_expect_value;// - 10.5*Dynamic_zero_Set;
     Error_Integral += Error;
     Limit_Out(&Error_Integral,100,-100); //如果系统存在较大的干扰或扰动，可以设置较小的积分限幅，以减小积分项的作用，防止系统的超调和不稳定。
     //if(Stop_Flag == 1) {Error = 0;Error_Integral = 0;}
@@ -138,7 +138,7 @@ void Front_Balance_PID(PID_Structure* pid,float Angle,float Gyro)
 
      Error = Angle - pid->Balance_expect_value;       //===求出平衡的角度中值 和机械相关
      Error_Integral += Error;
-     Limit_Out(&Error_Integral, 30, -30);
+     Limit_Out(&Error_Integral,30, -30);
      //if(Stop_Flag == 1) {Error = 0;Error_Integral = 0;}
      pid->Pid_Balance_out = pid->Kp_Balance*Error +
                                  pid->Ki_Balance*Error_Integral +
@@ -155,7 +155,7 @@ void Front_Speed_PI(PID_Structure* pid,int Enc_Front)
     Encoder_Integral += Encoder;
     Encoder_Last = Encoder;
 
-    Limit_Out(&Encoder_Integral, 1200, -1200);
+    Limit_Out(&Encoder_Integral, 1000, -1000);
     //if(Stop_Flag == 1) {Encoder = 0; Encoder_Integral = 0;}
     pid->Pid_Front_Speed_out = Encoder * pid->Kp_Front_Speed +
                                     Encoder_Integral *  pid->Ki_Front_Speed;   //获取最终数值
@@ -164,23 +164,16 @@ void Front_Speed_PI(PID_Structure* pid,int Enc_Front)
 
 
 // ################        转向环      ##################
-void Turn_P(PID_Structure* pid, uint8_t Act_mid_line,float Gyro)
+void Turn_P(PID_Structure* pid, int Act_mid_line,float Gyro)
 {
-    static float Error_Integral,Error_Last;
+    static float Error_Integral;
     image_Error = (float)Act_mid_line - Exp_MidLine; //实际-期望
-    image_Error = 0.7 * image_Error + Error_Last * 0.3;                                              //一阶低通滤波器
     Error_Integral += image_Error ;
-    Error_Last = image_Error;
-    Limit_Out(&Error_Integral, 40, -40);
-    Limit_Out(&Gyro, 500, -500);
-//    if(Flag_Status == 0)            {Target_Turn_Speed = 0 ;pid->Turn_Kd = 0;}
-//    else if(Flag_Status == 2)        Target_Turn_Speed--;
-//    else if(Flag_Status == 4)        Target_Turn_Speed++;
-//    if(Flag_Status != 0)             pid->Turn_Kd = 0;
-//    Limit_Out(&Target_Turn_Speed,20,-20);
-    //Kd针对转向约束，Kp针对控制转向,前半是约束，后半是摄像头处理后的信息控制
+    Limit_Out(&Error_Integral, 50, 50);
+//    Limit_Out(&Gyro, 1000, -1000);
+
     pid->Pid_Turn_out = pid->Turn_Kp * image_Error + pid->Turn_Ki * Error_Integral+pid->Turn_Kd * Gyro;
-    Limit_Out(&pid->Pid_Turn_out, 1500, -1500);
+    Limit_Out(&pid->Pid_Turn_out, 3000, -3000);
 }
 
 
@@ -208,7 +201,7 @@ float Front_Motor_Ctrl (float *motorC)
     else                    Motor_SetDir(P32_4,0); //MT1N
 
     *motorC = My_Abs(*motorC);
-    Limit_Out(motorC,3000,200);
+    Limit_Out(motorC,3100,260);
     if(Pitch > Safe_Angle || Pitch < -Safe_Angle)
         *motorC = 0;
     Motor_SetDuty(MOTOR1_P,*motorC);

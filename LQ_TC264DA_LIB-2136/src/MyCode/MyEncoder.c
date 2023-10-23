@@ -29,10 +29,10 @@ void Show_EncVal(void)
    // 鏄剧ずPID
 //   sprintf(txt, "%.0f", PID_Struct.Kp_Angle);
 //   TFTSPI_P8X16Str(1, 0, txt, u16WHITE, u16BLACK);
-   sprintf(txt, "%.2f", PID_Struct.Kd_Balance);
+   sprintf(txt, "%.3f", PID_Struct.Balance_expect_value);
    TFTSPI_P8X16Str(1, 0, txt, u16WHITE, u16BLACK);
-   sprintf(txt, "%.1f", image_Error);
-   TFTSPI_P8X16Str(9, 0, txt, u16WHITE, u16BLACK);
+   sprintf(txt, "%.6f", Dynamic_zero_Set);
+   TFTSPI_P8X16Str(8, 0, txt, u16WHITE, u16BLACK);
 
    //鏄剧ず  鍔ㄩ噺杞� 鍜� 琛岃繘鐢垫満 PWM
    sprintf(txt, "PWM: %05.2f", Pid_Out);

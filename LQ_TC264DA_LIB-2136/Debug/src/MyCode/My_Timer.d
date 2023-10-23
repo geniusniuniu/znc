@@ -260,3 +260,5 @@ c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/My_Timer.o :	..
 ../src/MyCode/My_camera.h :
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/My_Timer.o :	../src/MyCode/MyKalmanfilter.h
 ../src/MyCode/MyKalmanfilter.h :
+c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/My_Timer.o :	c:/ADS/ADSAPP/AURIX-Studio-1.7.2/plugins/com.infineon.aurix.tools_1.7.2/build_system/tools/Compilers/Tasking_1.1r8/ctc/include/math.h
+d:/ADS/ADSAPP/AURIX-Studio-1.7.2/plugins/com.infineon.aurix.tools_1.7.2/build_system/tools/Compilers/Tasking_1.1r8/ctc/include/math.h :
