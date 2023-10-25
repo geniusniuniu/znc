@@ -6,9 +6,7 @@
 #include "LQ_CCU6.h"
 #include "MyEncoder.h"
 #include "LQ_MotorServo.h"
-#include "My_camera.h"
-#include "MyKalmanfilter.h"
-#include <math.h>
+
 
 int Timer_Count = 0;
 float Pid_Out_L;
@@ -58,7 +56,7 @@ void CCU60_CH1_IRQHandler (void)
     if(Timer_Count3 == 25)
     {
         Timer_Count3 = 0;
-        Turn_P(&PID_Struct,median,gyro[2]);
+        Turn_P(&PID_Struct,Yaw,(float)gyro[2]);
     }
     if(Timer_Count1 == 50)
     {
@@ -70,8 +68,7 @@ void CCU60_CH1_IRQHandler (void)
     if(Timer_Count2 == 10)
     {
         Timer_Count2 = 0;
-        Dynamic_zero_Set = atan((0.000001 * EncVal_F * EncVal_F)*0.125)*180/3.14159;
-        PID_Struct.Balance_expect_value = PID_Struct.Pid_Front_Speed_out + Roll_Angle_Mid - Dynamic_zero_Set;
+        PID_Struct.Balance_expect_value = PID_Struct.Pid_Front_Speed_out + Roll_Angle_Mid;
         Front_Balance_PID(&PID_Struct,Roll,gyro[1]);
         Front_Speed_PI(&PID_Struct,EncVal_F);
     }

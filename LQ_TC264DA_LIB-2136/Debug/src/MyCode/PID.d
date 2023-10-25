@@ -176,3 +176,7 @@ c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/PID.o :	../src/
 ../src/MyCode/My_Timer.h :
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/PID.o :	c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/src/APP/LQ_MPU6050_DMP.h
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/src/APP/LQ_MPU6050_DMP.h :
+c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/PID.o :	../src/MyCode/MyEncoder.h
+../src/MyCode/MyEncoder.h :
+c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/PID.o :	c:/ADS/ADSAPP/AURIX-Studio-1.7.2/plugins/com.infineon.aurix.tools_1.7.2/build_system/tools/Compilers/Tasking_1.1r8/ctc/include/math.h
+d:/ADS/ADSAPP/AURIX-Studio-1.7.2/plugins/com.infineon.aurix.tools_1.7.2/build_system/tools/Compilers/Tasking_1.1r8/ctc/include/math.h :

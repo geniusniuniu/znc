@@ -5,12 +5,13 @@
 #include "MyPWM.h"
 #include "My_Timer.h"
 #include "LQ_MPU6050_DMP.h"
+#include "MyEncoder.h"
+#include <math.h>
 
 PID_Structure PID_Struct;
 
-float image_Error = 0;
-
-float Dynamic_zero_Set;
+float Dynamic_zero_Pitch;
+float Dynamic_zero_Roll;
 
 float Pid_Out;
 float PID_Out_F;
@@ -102,7 +103,14 @@ void Angle_PID(PID_Structure* pid,float Angle,float Gyro_x)
 {
     static float Error_Integral;
     float Error;
-    Error = Angle - pid->Angle_expect_value;// - 10.5*Dynamic_zero_Set;
+//    if(pid->Front_expect_value != 0)
+//    {
+//        /////dongtailingdian动态零点，//转固定半径的圆
+//        Dynamic_zero_Pitch = atan((0.000001 * EncVal_F * EncVal_F)*0.6)*180/3.14159;
+//        //Limit_Out(&Dynamic_zero_Pitch,2.5,-2.5);
+//        pid->Angle_expect_value -= Dynamic_zero_Pitch;
+//    }
+    Error = Angle - pid->Angle_expect_value;
     Error_Integral += Error;
     Limit_Out(&Error_Integral,100,-100); //如果系统存在较大的干扰或扰动，可以设置较小的积分限幅，以减小积分项的作用，防止系统的超调和不稳定。
     //if(Stop_Flag == 1) {Error = 0;Error_Integral = 0;}
@@ -136,6 +144,13 @@ void Front_Balance_PID(PID_Structure* pid,float Angle,float Gyro)
      float Error;
      static float Error_Integral=0;
 
+     if(pid->Front_expect_value != 0)
+     {
+         /////dongtailingdian动态零点
+         Dynamic_zero_Roll = atan((0.000001 * EncVal_F * EncVal_F)*0.0125)*180/3.14159;
+         Limit_Out(&Dynamic_zero_Roll,5,-5);
+         pid->Balance_expect_value -= Dynamic_zero_Roll;
+     }
      Error = Angle - pid->Balance_expect_value;       //===求出平衡的角度中值 和机械相关
      Error_Integral += Error;
      Limit_Out(&Error_Integral,30, -30);
@@ -164,15 +179,16 @@ void Front_Speed_PI(PID_Structure* pid,int Enc_Front)
 
 
 // ################        转向环      ##################
-void Turn_P(PID_Structure* pid, int Act_mid_line,float Gyro)
+void Turn_P(PID_Structure* pid, float Angle,float Gyro)
 {
     static float Error_Integral;
-    image_Error = (float)Act_mid_line - Exp_MidLine; //实际-期望
-    Error_Integral += image_Error ;
-    Limit_Out(&Error_Integral, 50, 50);
-//    Limit_Out(&Gyro, 1000, -1000);
+    float Error;
+    Error = Angle - Exp_Angle; //实际-期望
+    Error_Integral += Error ;
+    Limit_Out(&Error_Integral, 30,-30);
+    Limit_Out(&Gyro, 1000, -1000);
 
-    pid->Pid_Turn_out = pid->Turn_Kp * image_Error + pid->Turn_Ki * Error_Integral+pid->Turn_Kd * Gyro;
+    pid->Pid_Turn_out = pid->Turn_Kp * Error + pid->Turn_Ki * Error_Integral+pid->Turn_Kd * Gyro;
     Limit_Out(&pid->Pid_Turn_out, 3000, -3000);
 }
 

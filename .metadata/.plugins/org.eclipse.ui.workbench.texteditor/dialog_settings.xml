@@ -8,6 +8,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="Limit"/>
 			<item value="Dynamic_zero_cale"/>
 			<item value="Zero_Kalman"/>
 			<item value="KalmanCreate"/>
@@ -22,7 +23,6 @@
 			<item value=" mid_line"/>
 			<item value="mid"/>
 			<item value="Round"/>
-			<item value="image_Error"/>
 		</list>
 		<list key="replacehistory">
 		</list>

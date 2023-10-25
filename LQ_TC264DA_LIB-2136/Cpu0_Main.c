@@ -72,15 +72,15 @@ void PIDparam_Init(void)
     PID_Struct.Ki_Speed = PID_Struct.Kp_Speed / 200;
 
     PID_Struct.Kp_Balance = 292;//270      +
-    PID_Struct.Ki_Balance = 31;// 28        +
+    PID_Struct.Ki_Balance = 30;// 28        +
     PID_Struct.Kd_Balance = 15.4;//16.0     +
-    PID_Struct.Kp_Front_Speed = -0.057;//-0.08    -
+    PID_Struct.Kp_Front_Speed = -0.0585;//-0.08    -
     PID_Struct.Ki_Front_Speed = PID_Struct.Kp_Front_Speed / 200;
-    PID_Struct.Front_expect_value = 10;//-9.5;     /////调节角度环和动态零点的参数
+    PID_Struct.Front_expect_value = 5;//-9.5;     /////调节角度环和动态零点的参数
 
-//    PID_Struct.Turn_Kp = 50;//             +;
-//    PID_Struct.Turn_Ki = 0;// 15                +
-//    PID_Struct.Turn_Kd = 0;//; 0.05                 +
+    PID_Struct.Turn_Kp = -100;//                -;
+    PID_Struct.Turn_Ki = 20;//                  +;
+    PID_Struct.Turn_Kd = 0;//                   +;
 }
 
 

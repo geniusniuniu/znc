@@ -17,7 +17,7 @@
 
 int core1_main ()
 {
-    char txt2[64];
+
     IfxCpu_enableInterrupts();
     IfxScuWdt_disableCpuWatchdog (IfxScuWdt_getCpuWatchdogPassword ());
     while(!IfxCpu_acquireMutex(&mutexCpu0InitIsOk));
@@ -25,7 +25,7 @@ int core1_main ()
 //#################################################################################################
 //#################################################################################################
 //
-////
+//////char txt2[64];
 //    TFTSPI_Init(0);        //LCD³õÊ¼»¯  0:ºáÆÁ  1£ºÊúÆÁ
 //    TFTSPI_CLS(u16BLUE);   //À¶É«ÆÁÄ»
 //

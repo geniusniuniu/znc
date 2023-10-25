@@ -4,12 +4,12 @@
 #include <stdio.h>
 #include "stdint.h"
 
-#define Exp_MidLine  50.0
+#define Exp_Angle  0.0
 #define Pitch_Angle_Mid  -0.5
 #define Roll_Angle_Mid  4.1
 
-extern float image_Error;
-extern float Dynamic_zero_Set;
+extern float Dynamic_zero_Roll ;
+extern float Dynamic_zero_Pitch ;
 
 extern char Flag_Stop;
 extern char Flag_Status;
@@ -85,7 +85,7 @@ void Front_Speed_PI(PID_Structure* pid,int Enc_Front);
 
 
 //zhuanxiang
-void Turn_P(PID_Structure* pid, int Act_mid_line,float Gyro);
+void Turn_P(PID_Structure* pid, float Angle,float Gyro);
 
 #endif /* SRC_MYCODE_PID_H_ */
 
