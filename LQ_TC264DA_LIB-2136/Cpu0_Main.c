@@ -44,18 +44,21 @@ int core0_main (void)
         Show_EncVal();
         Show_MPUVal();
 
+        Param_Change();
+
         k0 = KEY_Read(KEY0);
         k1 = KEY_Read(KEY1);
         if(k0==0)
         {
-            PID_Struct.Kd_Balance += 0.5;
+            PID_Struct.Turn_Speed_Kp += 1;
             //PIDParam = PID_Struct.Kd_omegar;
         }
         if(k1==0)
         {
-            PID_Struct.Kd_Balance -=0.5;
+            PID_Struct.Turn_Speed_Kp -= 1;
             //PIDParam = PID_Struct.Kd_omegar;
         }
+
     }
     return 0;
 }
@@ -64,23 +67,21 @@ int core0_main (void)
 void PIDparam_Init(void)
 {
     PID_Struct.Kp_omegar = 50;//50;         +
-    PID_Struct.Kd_omegar = 41.5;  //40        +
-    PID_Struct.Kp_Angle = -100; //           -
-    PID_Struct.Kd_Angle = -4.2; //-4.4     -
-    PID_Struct.Ki_Angle = -1.80;//-1.825     -
+    PID_Struct.Kd_omegar = 39;  //40        +
+    PID_Struct.Kp_Angle = -90; //           -
+    PID_Struct.Kd_Angle = -4.4; //-4.4     -
+    PID_Struct.Ki_Angle = -1.81;//-1.825     -
     PID_Struct.Kp_Speed = -0.13;//           -
     PID_Struct.Ki_Speed = PID_Struct.Kp_Speed / 200;
 
-    PID_Struct.Kp_Balance = 292;//270      +
+    PID_Struct.Kp_Balance = 290;//270      +
     PID_Struct.Ki_Balance = 30;// 28        +
     PID_Struct.Kd_Balance = 15.4;//16.0     +
-    PID_Struct.Kp_Front_Speed = -0.0585;//-0.08    -
+    PID_Struct.Kp_Front_Speed = -0.056;//-0.08    -
     PID_Struct.Ki_Front_Speed = PID_Struct.Kp_Front_Speed / 200;
-    PID_Struct.Front_expect_value = 5;//-9.5;     /////调节角度环和动态零点的参数
+    PID_Struct.Front_expect_value = 10;//-9.5;
 
-    PID_Struct.Turn_Kp = -100;//                -;
-    PID_Struct.Turn_Ki = 20;//                  +;
-    PID_Struct.Turn_Kd = 0;//                   +;
+
 }
 
 

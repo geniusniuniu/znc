@@ -4,12 +4,12 @@
 #include <stdio.h>
 #include "stdint.h"
 
-#define Exp_Angle  0.0
 #define Pitch_Angle_Mid  -0.5
 #define Roll_Angle_Mid  4.1
 
 extern float Dynamic_zero_Roll ;
 extern float Dynamic_zero_Pitch ;
+extern float K;
 
 extern char Flag_Stop;
 extern char Flag_Status;
@@ -57,10 +57,16 @@ typedef struct PID
     float Front_now_value;//��ǰֵ
 
     //ת��
-    float Turn_Kp;
-    float Turn_Ki;
-    float Turn_Kd;
-    float Pid_Turn_out;
+    float Turn_Angle_Kp;
+    float Turn_Angle_Ki;
+    float Turn_Angle_Kd;
+    float Pid_Turn_Angle_out;
+    float Turn_Exp_Angle;
+
+    float Turn_Speed_Kp;
+    float Turn_Speed_Ki;
+    float Turn_Speed_Kd;
+    float Pid_Turn_Speed_out;
 
 }PID_Structure;
 
@@ -73,6 +79,7 @@ float Motor_Ctrl(float motorA, float motorB);
 float Front_Motor_Ctrl (float *motorC);
 float My_Abs(float a);
 
+void Param_Change(void);
 //zuoyou
 void omegar_PD(PID_Structure* pid,float gx);
 void Angle_PID(PID_Structure* pid,float Angle,float Gyro_x);
@@ -85,7 +92,7 @@ void Front_Speed_PI(PID_Structure* pid,int Enc_Front);
 
 
 //zhuanxiang
-void Turn_P(PID_Structure* pid, float Angle,float Gyro);
+void Turn_Speed_PID(PID_Structure* pid,short gyro);
 
 #endif /* SRC_MYCODE_PID_H_ */
 

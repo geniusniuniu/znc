@@ -12,6 +12,7 @@ PID_Structure PID_Struct;
 
 float Dynamic_zero_Pitch;
 float Dynamic_zero_Roll;
+float K = 1;
 
 float Pid_Out;
 float PID_Out_F;
@@ -59,11 +60,16 @@ void PID_Init(PID_Structure *pid)
     pid->Front_expect_value = 0;//期望值
     pid->Front_now_value = 0;//当前值
 
-    pid->Turn_Kp = 0;
-    pid->Turn_Ki = 0;
-    pid->Turn_Kd = 0;
-    pid->Pid_Turn_out = 0;
+    pid->Turn_Angle_Kp = 0;
+    pid->Turn_Angle_Ki = 0;
+    pid->Turn_Angle_Kd = 0;
+    pid->Pid_Turn_Angle_out = 0;
+    pid->Turn_Exp_Angle = 0;
 
+    pid->Turn_Speed_Kp = 0;
+    pid->Turn_Speed_Ki = 0;
+    pid->Turn_Speed_Kd = 0;
+    pid->Pid_Turn_Speed_out = 0;
 }
 
 /*
@@ -87,6 +93,20 @@ float My_Abs(float a)
     return a;
 }
 
+void Param_Change(void)
+{
+    if(Stability_Flag == 0)
+    {
+        K = 1;
+        PID_Struct.Turn_Speed_Kp = 5;
+
+    }
+    else
+    {
+        PID_Struct.Turn_Speed_Kp = 0;
+        K = 0;
+    }
+}
 
 //############################左右平衡环#######################################//
 
@@ -106,7 +126,7 @@ void Angle_PID(PID_Structure* pid,float Angle,float Gyro_x)
 //    if(pid->Front_expect_value != 0)
 //    {
 //        /////dongtailingdian动态零点，//转固定半径的圆
-//        Dynamic_zero_Pitch = atan((0.000001 * EncVal_F * EncVal_F)*0.6)*180/3.14159;
+//        Dynamic_zero_Pitch = atan((0.000001 * EncVal_F * EncVal_F)*0.6)*180/3.14159*K;
 //        //Limit_Out(&Dynamic_zero_Pitch,2.5,-2.5);
 //        pid->Angle_expect_value -= Dynamic_zero_Pitch;
 //    }
@@ -127,9 +147,9 @@ void Speed_PI(PID_Structure* pid,float Enc_Left,float Enc_Right)
     //测量速度（左右编码器之和）- 目标速度（此处为零）
     Encoder_Err = (float)(Enc_Left - Enc_Right);
     Encoder = (1 - a) * Encoder_Err + a * Encoder_last; // 使得波形更加平滑，滤除高频干扰，防止速度突变
-    Encoder_last = Encoder;   // 防止速度过大影响直立环的正常工作
+    Encoder_last = Encoder;
     Encoder_Integral += Encoder;
-    Limit_Out(&Encoder_Integral,1000,-1000);
+    Limit_Out(&Encoder_Integral,1000,-1000);// 防止速度过大影响直立环的正常工作
     //if(Stop_Flag == 1) {Encoder = 0;Encoder_Integral = 0;}
     pid->Pid_Speed_out = Encoder*pid->Kp_Speed + Encoder_Integral*pid->Ki_Speed;    //===速度控制
 }
@@ -147,9 +167,15 @@ void Front_Balance_PID(PID_Structure* pid,float Angle,float Gyro)
      if(pid->Front_expect_value != 0)
      {
          /////dongtailingdian动态零点
-         Dynamic_zero_Roll = atan((0.000001 * EncVal_F * EncVal_F)*0.0125)*180/3.14159;
-         Limit_Out(&Dynamic_zero_Roll,5,-5);
-         pid->Balance_expect_value -= Dynamic_zero_Roll;
+         Dynamic_zero_Roll = atan((0.0000113 * EncVal_F * EncVal_F)*K)*180/3.14159;
+
+         if(EncVal_F >= 25)
+             Dynamic_zero_Roll -= 0.15;
+         else if(EncVal_F >= 15 && EncVal_F < 25)
+             Dynamic_zero_Roll -= 0.05;
+         Limit_Out(&Dynamic_zero_Roll,2,-2);
+
+         pid->Balance_expect_value += Dynamic_zero_Roll;
      }
      Error = Angle - pid->Balance_expect_value;       //===求出平衡的角度中值 和机械相关
      Error_Integral += Error;
@@ -179,19 +205,12 @@ void Front_Speed_PI(PID_Structure* pid,int Enc_Front)
 
 
 // ################        转向环      ##################
-void Turn_P(PID_Structure* pid, float Angle,float Gyro)
+
+void Turn_Speed_PID(PID_Structure* pid,short gyro)
 {
-    static float Error_Integral;
-    float Error;
-    Error = Angle - Exp_Angle; //实际-期望
-    Error_Integral += Error ;
-    Limit_Out(&Error_Integral, 30,-30);
-    Limit_Out(&Gyro, 1000, -1000);
-
-    pid->Pid_Turn_out = pid->Turn_Kp * Error + pid->Turn_Ki * Error_Integral+pid->Turn_Kd * Gyro;
-    Limit_Out(&pid->Pid_Turn_out, 3000, -3000);
+    gyro = gyro*1.0;
+    pid->Pid_Turn_Speed_out = pid->Turn_Speed_Kp * (gyro-0) ;
 }
-
 
 
 float Motor_Ctrl(float motorA, float motorB)
@@ -218,7 +237,7 @@ float Front_Motor_Ctrl (float *motorC)
 
     *motorC = My_Abs(*motorC);
     Limit_Out(motorC,3100,260);
-    if(Pitch > Safe_Angle || Pitch < -Safe_Angle)
+    if(Pitch > Danger_Angle || Pitch < -Danger_Angle)
         *motorC = 0;
     Motor_SetDuty(MOTOR1_P,*motorC);
     return *motorC;

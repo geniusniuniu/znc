@@ -1,5 +1,5 @@
 ################################################################################
-# Automatically-generated file. Do not edit!
+# 自动生成的文件。不要编辑！
 ################################################################################
 
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/Driver/LQ_CCU6.o :	../src/Driver/LQ_CCU6.c

@@ -1,5 +1,5 @@
 ################################################################################
-# Automatically-generated file. Do not edit!
+# 自动生成的文件。不要编辑！
 ################################################################################
 
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o :	../Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.c

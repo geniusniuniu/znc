@@ -1,7 +1,9 @@
 #ifndef MY_NEWCAR_MY_TIMER_H
 #define MY_NEWCAR_MY_TIMER_H
 
-#define Safe_Angle 25
+#define Danger_Angle 22
+
+extern char Stability_Flag;
 
 void MyTimer_Init(void);
 

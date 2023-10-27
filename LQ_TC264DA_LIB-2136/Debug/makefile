@@ -1,12 +1,12 @@
 ################################################################################
-# Automatically-generated file. Do not edit!
+# 自动生成的文件。不要编辑！
 ################################################################################
 
 -include ../makefile.init
 
 RM := rm -rf
 
-# All of the sources participating in the build are defined here
+# 此处定义了参与生成的所有源
 -include sources.mk
 -include src/User/subdir.mk
 -include src/MyCode/subdir.mk
@@ -87,32 +87,32 @@ BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
-# Add inputs and outputs from these tool invocations to the build variables 
+# 将这些工具调用的输入和输出添加到构建变量 
 SECONDARY_SIZE += \
 LQ_TC264DA_LIB-2136.siz \
 
 
-# All Target
+# 所有目标
 all: main-build
 
-# Main-build Target
+# 主构建目标
 main-build: LQ_TC264DA_LIB-2136.elf secondary-outputs
 
-# Tool invocations
+# 工具调用
 LQ_TC264DA_LIB-2136.elf: $(OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
-	@echo 'Building target: $@'
-	@echo 'Invoking: TASKING Linker'
+	@echo '正在构建目标： $@'
+	@echo '正在调用： TASKING Linker'
 	cctc -lrt -lfp_fpu -lcs_fpu  -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy "C:\Users\gyy123\Desktop\znc\LQ_TC264DA_LIB-2136\src\APP\LQ_MPU6050_DMP.o" -Wl--map-file="LQ_TC264DA_LIB-2136.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --exceptions --strict --anachronisms --force-c++ -Ctc26xb   -o"LQ_TC264DA_LIB-2136.elf" -Wl-o"LQ_TC264DA_LIB-2136.hex:IHEX" --lsl-core=vtc  --lsl-file=../Lcf_Tasking_Tricore_Tc.lsl $(OBJS)
-	@echo 'Finished building target: $@'
+	@echo '已结束构建目标： $@'
 	@echo ' '
 
 LQ_TC264DA_LIB-2136.siz: LQ_TC264DA_LIB-2136.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
-	@echo 'Invoking: Print Size'
+	@echo '正在调用： Print Size'
 	elfsize  "LQ_TC264DA_LIB-2136.elf"
-	@echo 'Finished building: $@'
+	@echo '已结束构建： $@'
 	@echo ' '
 
-# Other Targets
+# 其他目标
 clean:
 	find . ! -name "*.mk" ! -name "makefile" ! -name "." -type f -delete 
 	-@echo ' '

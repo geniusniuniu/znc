@@ -3598,3 +3598,1330 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infin
 
 !ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-24 22:26:21.850
 !MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1747 milliseconds. (incremental boost)
+!SESSION 2023-10-25 10:18:50.523 -----------------------------------------------
+eclipse.buildId=1.7.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 10:20:01.565
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2831 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 10:21:03.738
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2189 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 10:33:09.739
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2106 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:22:10.241
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:22:10.241
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:25:09.024
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1844 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:25:55.264
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1921 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:26:51.762
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1868 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:34:10.302
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1912 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:39:10.944
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 375 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:39:32.321
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 341 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:40:23.772
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1826 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:44:52.254
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1912 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:45:14.788
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:45:14.788
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 11:45:28.746
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 371 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:16:51.391
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1787 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:17:14.205
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 345 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:17:25.474
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 343 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:17:36.335
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 354 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:17:47.231
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 361 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:18:07.350
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 401 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:18:49.654
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1798 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:19:03.412
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:19:03.412
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:21:08.786
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1877 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:27:46.731
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1944 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:28:09.691
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 12:28:09.701
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+!SESSION 2023-10-25 20:19:59.679 -----------------------------------------------
+eclipse.buildId=1.7.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c -perspective com.infineon.aurix.buildmanager.perspective.c -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c -perspective com.infineon.aurix.buildmanager.perspective.c -data C:\Users\gyy123\Desktop\znc -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:21:05.730
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2920 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:22:30.261
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2179 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:29:58.110
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2068 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:31:15.522
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2020 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:32:32.526
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2006 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:33:55.487
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1999 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:35:09.594
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1973 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:36:10.036
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1976 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:39:12.599
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2037 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:40:15.298
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1985 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:41:52.860
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1971 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:44:00.801
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1982 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:45:19.367
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1966 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:47:20.177
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1972 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:48:20.449
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1980 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:50:08.617
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1946 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:51:55.973
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2014 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:53:55.905
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1963 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:54:28.789
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 448 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:56:22.558
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1977 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:57:47.085
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1897 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 20:58:55.296
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1917 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:00:12.167
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1945 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:01:31.153
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1921 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:02:56.075
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1864 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:04:52.704
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1900 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:05:51.011
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1881 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:07:10.667
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1894 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:07:36.072
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:07:36.072
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:09:08.434
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1918 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:10:01.790
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1879 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:11:01.393
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1888 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:12:18.012
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1893 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:13:19.782
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1976 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:13:49.366
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:13:49.366
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 21:17:49.439
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1893 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:22:02.921
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1899 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:28:53.239
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2048 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:29:24.607
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1922 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:30:32.380
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1906 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:31:05.361
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1990 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:33:24.097
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1862 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:41:47.447
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1944 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:43:24.893
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1855 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:45:25.632
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1885 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:45:59.219
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 410 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:48:12.572
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1866 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:50:59.884
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1884 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:52:10.860
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1907 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:53:32.503
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1884 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:54:39.789
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1876 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-25 22:57:02.798
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1860 milliseconds. (incremental boost)
+!SESSION 2023-10-26 14:55:14.588 -----------------------------------------------
+eclipse.buildId=1.7.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2023-10-26 14:58:24.088
+!MESSAGE Connection to https://download.eclipse.org/technology/babel/update-site/latest/p2.index failed on Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-10-26 14:58:30.398
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: 无法连接到资源库 https://download.eclipse.org/technology/babel/update-site/latest/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:248)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 11 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2023-10-26 14:58:30.398
+!MESSAGE 无法连接到资源库 https://download.eclipse.org/technology/babel/update-site/latest/content.xml
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 11 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2023-10-26 14:58:32.428
+!MESSAGE Connection to http://download.tasking.com/Embedded%20Debugger/v1.1r8/eclipse/updates/p2.index failed on Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-10-26 14:58:38.749
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: 无法连接到资源库 http://download.tasking.com/Embedded%20Debugger/v1.1r8/eclipse/updates/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:248)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 11 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2023-10-26 14:58:38.749
+!MESSAGE 无法连接到资源库 http://download.tasking.com/Embedded%20Debugger/v1.1r8/eclipse/updates/content.xml
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 11 more
+!SESSION 2023-10-26 14:58:49.231 -----------------------------------------------
+eclipse.buildId=1.7.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2023-10-26 14:59:07.356
+!MESSAGE Connection to http://download.tasking.com/Embedded%20Debugger/v1.1r8/eclipse/updates/p2.index failed on Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-10-26 14:59:13.718
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: 无法连接到资源库 http://download.tasking.com/Embedded%20Debugger/v1.1r8/eclipse/updates/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:248)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 11 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2023-10-26 14:59:13.718
+!MESSAGE 无法连接到资源库 http://download.tasking.com/Embedded%20Debugger/v1.1r8/eclipse/updates/content.xml
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7890 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 11 more
+!SESSION 2023-10-26 14:59:26.339 -----------------------------------------------
+eclipse.buildId=1.7.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 14:59:48.921
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2901 milliseconds. (full boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:01:09.369
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1899 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:02:02.929
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1876 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:03:06.034
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1906 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:03:38.213
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1923 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:04:09.673
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 319 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:04:18.054
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 382 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:05:20.575
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1974 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:05:58.756
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2025 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:14:43.054
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3294 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:17:04.378
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3202 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:17:24.918
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 387 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:19:41.035
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3317 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:21:25.988
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3192 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:32:21.921
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3465 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:33:13.888
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3424 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:33:31.626
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 324 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:35:07.244
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3260 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:36:07.237
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3251 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:38:14.394
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3253 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:39:48.456
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3204 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:42:18.460
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3337 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:44:18.470
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3237 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:46:00.734
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3320 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:46:18.587
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 565 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:48:09.683
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3606 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:49:54.911
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3348 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:50:19.918
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3304 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:51:41.846
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3414 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 15:58:38.906
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3624 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:00:05.517
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3287 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:08:20.508
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3498 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:08:38.472
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:08:38.472
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:08:52.989
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 472 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:12:45.009
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3251 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:15:03.793
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3186 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:16:41.687
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3221 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:32:12.096
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3239 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:33:52.289
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3183 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:36:06.592
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3238 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:41:03.448
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3392 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:43:37.438
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3191 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:44:41.030
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3273 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:48:02.130
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3205 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:52:06.724
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3234 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:53:30.188
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3250 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:55:01.857
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3412 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:57:34.837
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3253 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:57:50.742
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 361 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:58:00.856
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 450 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 16:58:07.263
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 363 milliseconds. (incremental boost)
+!SESSION 2023-10-26 18:26:55.112 -----------------------------------------------
+eclipse.buildId=1.7.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:27:57.680
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2388 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:28:13.574
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 361 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:29:24.723
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1808 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:31:02.408
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1975 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:35:55.366
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1769 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:36:20.435
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2061 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:39:06.230
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1796 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:39:21.417
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:39:21.417
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:40:28.569
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1776 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:42:15.953
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1779 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:44:52.307
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2013 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:45:06.965
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:45:06.965
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 18:52:23.585
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1786 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:00:08.934
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1795 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:00:37.351
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1808 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:01:34.304
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1766 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:02:34.337
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1935 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:06:22.518
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1762 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:09:14.788
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1743 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:10:29.213
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1873 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:10:41.219
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 303 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:13:09.481
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 299 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:13:29.542
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 304 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:15:29.221
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1775 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:15:43.251
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:15:43.251
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:16:49.486
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1818 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:17:00.455
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:17:00.455
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:18:07.612
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1887 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:24:50.618
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3140 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:28:08.347
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3265 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:31:14.217
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3309 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:32:54.035
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3204 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:33:18.661
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 547 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:35:21.469
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:35:21.469
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:37:10.379
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3178 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:38:19.434
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3289 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:39:27.557
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3293 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:40:22.768
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:40:22.768
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:43:53.923
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3296 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:46:41.653
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3343 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:48:28.613
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3198 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:51:04.931
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3260 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:52:07.201
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3258 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:55:57.478
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3230 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:56:50.609
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3083 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 19:59:32.282
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3143 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 20:02:35.603
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3206 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 20:05:29.994
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3194 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 20:14:37.409
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3193 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 20:16:15.494
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3378 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 20:19:20.541
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3090 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 20:22:54.092
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3190 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 20:25:42.810
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3180 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 20:42:06.511
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3870 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 20:45:35.490
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3289 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 20:47:18.821
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3282 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 20:54:48.149
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3230 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:10:57.146
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2100 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:11:46.675
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1954 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:12:15.072
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1794 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:13:45.328
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1794 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:14:03.237
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 344 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:14:15.828
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 513 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:14:53.488
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1802 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:15:08.081
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:15:08.081
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:16:11.614
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1758 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:16:28.889
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-26 22:16:28.889
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+!SESSION 2023-10-27 12:16:50.174 -----------------------------------------------
+eclipse.buildId=1.7.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 12:18:09.066
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 12:18:09.066
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 15 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 12:18:45.942
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2484 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 12:20:06.298
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1826 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 12:20:32.279
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 340 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 12:21:33.471
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1775 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 12:22:15.759
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1818 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 12:23:00.625
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1720 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 12:23:16.797
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 12:23:16.807
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:10:15.018
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3694 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:12:58.442
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2994 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:13:50.065
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3042 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:25:11.409
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1700 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:25:24.094
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:25:24.094
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:26:27.359
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1715 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:27:29.563
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1684 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:28:44.884
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1688 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:28:56.452
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:28:56.452
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:29:08.524
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 311 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:29:38.700
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1703 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:30:28.683
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1722 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:30:50.169
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 300 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:31:32.631
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1773 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:31:49.594
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:31:49.594
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:33:26.206
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1698 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:33:39.764
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:33:39.764
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:34:27.204
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1701 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:36:38.244
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1731 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:37:09.066
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1713 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:37:50.988
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1725 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:38:34.099
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1777 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:38:48.441
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:38:48.441
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:39:22.164
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1763 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:39:36.831
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:39:36.831
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:40:50.109
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:40:50.109
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:41:11.026
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 297 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:42:09.704
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1685 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:51:15.679
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1836 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 13:53:34.745
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1685 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:01:21.612
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1690 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:01:37.759
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 296 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:01:57.320
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 301 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:02:10.380
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 324 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:03:03.120
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1706 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:03:18.066
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 292 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:10:59.585
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1717 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:11:14.278
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 320 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:23:10.641
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1748 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:23:38.571
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1688 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:23:55.752
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 320 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:24:07.340
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 324 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:24:21.877
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 295 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:32:38.838
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1751 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:32:58.263
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1776 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:33:10.436
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 318 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:33:21.878
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 288 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:33:42.587
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 294 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:38:21.716
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1715 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:38:37.851
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 295 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:43:56.811
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1709 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:47:22.127
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1757 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:47:30.717
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:47:30.717
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:49:16.961
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1667 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:53:24.701
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1680 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 14:59:45.081
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1770 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:08:56.853
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1797 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:09:08.670
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 307 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:09:44.541
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1709 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:10:05.816
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 290 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:15:03.167
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1724 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:15:19.404
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1711 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:16:05.961
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1752 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:16:46.160
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1706 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:20:59.282
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1722 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:22:29.105
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1748 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:24:24.969
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1697 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:24:39.493
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 320 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:27:00.553
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1703 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:27:52.774
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1707 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:28:33.772
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1708 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:32:30.218
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1709 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:33:04.028
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1664 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:33:20.563
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 314 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:33:32.687
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 293 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:37:44.138
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1686 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:39:16.717
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1712 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:39:31.827
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1721 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:41:01.233
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1699 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:41:21.123
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 292 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:51:47.668
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1722 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:53:32.484
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1651 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:53:43.596
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 320 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:53:57.442
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 302 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:55:30.061
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1758 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:55:43.126
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 312 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:56:21.904
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1709 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:57:33.120
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1711 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:57:51.078
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 322 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 15:59:46.760
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1745 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 16:00:54.210
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1706 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 16:01:47.935
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1702 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 16:03:18.192
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1701 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 16:04:10.609
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1703 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 16:13:28.757
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1680 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 16:13:54.591
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 283 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 16:15:51.667
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1643 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 16:19:33.405
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1673 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-27 16:21:50.096
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1750 milliseconds. (incremental boost)

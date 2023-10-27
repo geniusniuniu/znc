@@ -1,5 +1,5 @@
 ################################################################################
-# Automatically-generated file. Do not edit!
+# 自动生成的文件。不要编辑！
 ################################################################################
 
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/My_Timer.o :	../src/MyCode/My_Timer.c
@@ -256,3 +256,5 @@ c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/My_Timer.o :	..
 ../src/MyCode/MyEncoder.h :
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/My_Timer.o :	c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/src/User/LQ_MotorServo.h
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/src/User/LQ_MotorServo.h :
+c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/My_Timer.o :	../src/MyCode/MyMPU6050.h
+../src/MyCode/MyMPU6050.h :

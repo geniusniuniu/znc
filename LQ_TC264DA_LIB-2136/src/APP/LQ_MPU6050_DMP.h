@@ -23,7 +23,7 @@ QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ*/
 
 
 extern short   gyro[3], accel[3], sensors;
-extern float   Pitch, Roll,Yaw;
+extern float   Pitch, Roll, Yaw;
 
 unsigned short inv_row_2_scale(const signed char *row);
 

@@ -6,7 +6,9 @@
 #include "LQ_CCU6.h"
 #include "MyEncoder.h"
 #include "LQ_MotorServo.h"
+#include "MyMPU6050.h"
 
+char Stability_Flag = 0;
 
 int Timer_Count = 0;
 float Pid_Out_L;
@@ -41,7 +43,7 @@ void CCU60_CH1_IRQHandler (void)
 
     // 超出最大角度动量轮和行进电机立即停止
     Motor_Stop();
-
+    Stability_Judge();
 ///// ##########        左右平衡环       ##################
 /////      #####  速度环 -> 角度环 -> 角速度 #########
 
@@ -52,16 +54,8 @@ void CCU60_CH1_IRQHandler (void)
         Timer_Count0 = 0;
         PID_Struct.Angle_expect_value = PID_Struct.Pid_Speed_out + Pitch_Angle_Mid;
         Angle_PID(&PID_Struct,Pitch,gyro[0]);
-    }
-    if(Timer_Count3 == 25)
-    {
-        Timer_Count3 = 0;
-        Turn_P(&PID_Struct,Yaw,(float)gyro[2]);
-    }
-    if(Timer_Count1 == 50)
-    {
-        Timer_Count1 = 0;
-        Speed_PI(&PID_Struct,EncVal_L,EncVal_R);
+
+        Turn_Speed_PID(&PID_Struct,gyro[2]);
     }
     //##########        前后平衡环       ##################
     //       ########  速度环 -> 角度环  #########
@@ -73,8 +67,14 @@ void CCU60_CH1_IRQHandler (void)
         Front_Speed_PI(&PID_Struct,EncVal_F);
     }
 
-    Pid_Out_L = PID_Struct.Pid_omegar_out + PID_Struct.Pid_Turn_out;
-    Pid_Out_R = PID_Struct.Pid_omegar_out - PID_Struct.Pid_Turn_out;
+    if(Timer_Count1 == 50)
+    {
+        Timer_Count1 = 0;
+        Speed_PI(&PID_Struct,EncVal_L,EncVal_R);
+    }
+
+    Pid_Out_L = PID_Struct.Pid_omegar_out + PID_Struct.Pid_Turn_Speed_out;
+    Pid_Out_R = PID_Struct.Pid_omegar_out - PID_Struct.Pid_Turn_Speed_out;
     Pid_Out_F = PID_Struct.Pid_Balance_out;
 
     Motor_Ctrl(Pid_Out_L,Pid_Out_R);

@@ -18,7 +18,7 @@
 							<option id="com.tasking.ctc.cpu.1622656246" name="Processor" superClass="com.tasking.ctc.cpu" useByScannerDiscovery="false" value="tc26xb" valueType="string"/>
 							<option id="com.tasking.ctc.package.1870795490" name="Device package" superClass="com.tasking.ctc.package" useByScannerDiscovery="false" value="bga292" valueType="string"/>
 							<targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF" id="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform.638755995" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/LQ_TC264DA_LIB}/Debug" id="com.infineon.aurix.buildsystem.managed.tasking.builder.1874706110" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.tasking.builder"/>
+							<builder buildPath="${workspace_loc:/LQ_TC264DA_LIB}/Debug" id="com.infineon.aurix.buildsystem.managed.tasking.builder.1874706110" keepEnvironmentInBuildfile="false" name="GNU Make 构建器" superClass="com.infineon.aurix.buildsystem.managed.tasking.builder"/>
 							<tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.debug.530829584" name="TASKING C/C++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.debug">
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include.1016278996" name="Include paths" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>

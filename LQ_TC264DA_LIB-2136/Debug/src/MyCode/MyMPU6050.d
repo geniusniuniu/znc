@@ -1,5 +1,5 @@
 ################################################################################
-# Automatically-generated file. Do not edit!
+# 自动生成的文件。不要编辑！
 ################################################################################
 
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/MyMPU6050.o :	../src/MyCode/MyMPU6050.c
@@ -172,3 +172,7 @@ c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/MyMPU6050.o :	c
 d:/ADS/ADSAPP/AURIX-Studio-1.7.2/plugins/com.infineon.aurix.tools_1.7.2/build_system/tools/Compilers/Tasking_1.1r8/ctc/include/stdio.h :
 c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/MyMPU6050.o :	c:/ADS/ADSAPP/AURIX-Studio-1.7.2/plugins/com.infineon.aurix.tools_1.7.2/build_system/tools/Compilers/Tasking_1.1r8/ctc/include/stdarg.h
 d:/ADS/ADSAPP/AURIX-Studio-1.7.2/plugins/com.infineon.aurix.tools_1.7.2/build_system/tools/Compilers/Tasking_1.1r8/ctc/include/stdarg.h :
+c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/MyMPU6050.o :	../src/MyCode/PID.h
+../src/MyCode/PID.h :
+c:/Users/gyy123/Desktop/znc/LQ_TC264DA_LIB-2136/Debug/src/MyCode/MyMPU6050.o :	../src/MyCode/My_Timer.h
+../src/MyCode/My_Timer.h :

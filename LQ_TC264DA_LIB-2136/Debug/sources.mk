@@ -1,5 +1,5 @@
 ################################################################################
-# Automatically-generated file. Do not edit!
+# 自动生成的文件。不要编辑！
 ################################################################################
 
 C_UPPER_SRCS := 
@@ -22,7 +22,7 @@ COMPILED_SRCS :=
 CPP_DEPS := 
 C_DEPS := 
 
-# Every subdirectory with source files must be described here
+# 此处必须描述包含源文件的每个子目录
 SUBDIRS := \
 Configurations/Debug \
 . \

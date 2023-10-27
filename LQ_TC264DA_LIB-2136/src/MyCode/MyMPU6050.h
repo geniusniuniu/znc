@@ -12,4 +12,6 @@ void MPU_Init(void);
 
 void Show_MPUVal(void);
 
+void Stability_Judge(void);
+
 #endif /* SRC_MYCODE_MYMPU6050_H_ */

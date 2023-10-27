@@ -51,9 +51,9 @@ void Motor_SetDir(GPIO_Name_t pin,uint8 Direction)
  */
 void Motor_Stop(void)
 {
-    if(Pitch > Safe_Angle || Pitch < -Safe_Angle)
+
+    if(Pitch > Danger_Angle || Pitch < -Danger_Angle)
         ATOM_PWM_SetDuty(IfxGtm_ATOM0_4_TOUT50_P22_3_OUT,0,10000);// 刹车线给高，停止
-        //Stop_Flag = 1;
     else
         ATOM_PWM_SetDuty(IfxGtm_ATOM0_4_TOUT50_P22_3_OUT,10000,10000);
 }
