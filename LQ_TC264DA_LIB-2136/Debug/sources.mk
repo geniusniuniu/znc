@@ -24,6 +24,7 @@ C_DEPS :=
 
 # 此处必须描述包含源文件的每个子目录
 SUBDIRS := \
+.metadata/.plugins/org.eclipse.cdt.make.core \
 Configurations/Debug \
 . \
 Libraries/Infra/Platform/Tricore/Compilers \

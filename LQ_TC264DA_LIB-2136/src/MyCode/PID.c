@@ -98,12 +98,13 @@ void Param_Change(void)
     if(Stability_Flag == 0)
     {
         K = 1;
-        PID_Struct.Turn_Speed_Kp = 5;
-
+//        PID_Struct.Turn_Angle_Kp = 160;
+//        PID_Struct.Turn_Angle_Kd = 4;
     }
     else
     {
-        PID_Struct.Turn_Speed_Kp = 0;
+//        PID_Struct.Turn_Angle_Kp = 0;
+//        PID_Struct.Turn_Angle_Kd = 0;
         K = 0;
     }
 }
@@ -167,14 +168,18 @@ void Front_Balance_PID(PID_Structure* pid,float Angle,float Gyro)
      if(pid->Front_expect_value != 0)
      {
          /////dongtailingdian动态零点
-         Dynamic_zero_Roll = atan((0.0000113 * EncVal_F * EncVal_F)*K)*180/3.14159;
-
-         if(EncVal_F >= 25)
-             Dynamic_zero_Roll -= 0.15;
-         else if(EncVal_F >= 15 && EncVal_F < 25)
+         Dynamic_zero_Roll = atan((0.0000185 * EncVal_F * EncVal_F)*K)*180/3.14159;
+         if(EncVal_F <= 15)
+             K = 1.02;
+         else
+             K = 1.0;
+         if(EncVal_F >= 35)
              Dynamic_zero_Roll -= 0.05;
-         Limit_Out(&Dynamic_zero_Roll,2,-2);
-
+         if(EncVal_F >= 45)
+             Dynamic_zero_Roll -= 0.20;
+         if(EncVal_F >= 70)
+             Stability_Flag = 1; //不稳定
+         Limit_Out(&Dynamic_zero_Roll,3,-3);
          pid->Balance_expect_value += Dynamic_zero_Roll;
      }
      Error = Angle - pid->Balance_expect_value;       //===求出平衡的角度中值 和机械相关
@@ -206,10 +211,23 @@ void Front_Speed_PI(PID_Structure* pid,int Enc_Front)
 
 // ################        转向环      ##################
 
-void Turn_Speed_PID(PID_Structure* pid,short gyro)
+void Turn_Angle_PID(PID_Structure* pid,float Angle,short gyro)
 {
-    gyro = gyro*1.0;
-    pid->Pid_Turn_Speed_out = pid->Turn_Speed_Kp * (gyro-0) ;
+    static float Error_Integral;
+    float Error;
+
+    Error = Angle - pid->Turn_Exp_Angle;
+    Error_Integral += Error;
+    Limit_Out(&Error_Integral,30,-30);
+
+    pid->Pid_Turn_Angle_out =pid->Turn_Angle_Kp*Error + pid->Turn_Angle_Kd * gyro ;
+}
+
+void Turn_Speed_PID(PID_Structure* pid,float Enc_L,float Enc_R)
+{
+    float Error;
+    Error = Enc_L-Enc_R;
+    pid->Pid_Turn_Speed_out = pid->Turn_Speed_Kp * Error;
 }
 
 

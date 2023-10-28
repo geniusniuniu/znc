@@ -43,7 +43,7 @@ void Stability_Judge(void)
         Stability_Value++;
     else if(My_Abs(gyro[0]-gyro0_last)>200)
         Stability_Value++;
-    else if(My_Abs(gyro[1]-gyro1_last)>200)
+    else if(My_Abs(gyro[1]-gyro1_last)>350)
         Stability_Value++;
 
     if(Stability_Value != 0)

@@ -3,6 +3,7 @@
 #include "stdio.h"
 #include "My_Timer.h"
 #include "PID.h"
+#include "LQ_MPU6050_DMP.h"
 
 char txt[64];
 
@@ -29,9 +30,9 @@ void Show_EncVal(void)
    // 鏄剧ずPID
 //   sprintf(txt, "%.0f", PID_Struct.Kp_Angle);
 //   TFTSPI_P8X16Str(1, 0, txt, u16WHITE, u16BLACK);
-   sprintf(txt, "%.3f", PID_Struct.Turn_Speed_Kp);
+   sprintf(txt, "%.4f", PID_Struct.Kd_Balance);
    TFTSPI_P8X16Str(1, 0, txt, u16WHITE, u16BLACK);
-   sprintf(txt, "%.6f", Dynamic_zero_Roll);
+   sprintf(txt, "%.5f", Dynamic_zero_Roll);
    TFTSPI_P8X16Str(8, 0, txt, u16WHITE, u16BLACK);
 
    //鏄剧ず  鍔ㄩ噺杞� 鍜� 琛岃繘鐢垫満 PWM

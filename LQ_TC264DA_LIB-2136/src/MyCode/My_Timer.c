@@ -55,9 +55,15 @@ void CCU60_CH1_IRQHandler (void)
         PID_Struct.Angle_expect_value = PID_Struct.Pid_Speed_out + Pitch_Angle_Mid;
         Angle_PID(&PID_Struct,Pitch,gyro[0]);
 
-        Turn_Speed_PID(&PID_Struct,gyro[2]);
+        Turn_Angle_PID(&PID_Struct,Yaw,gyro[2]);
     }
-    //##########        前后平衡环       ##################
+    if(Timer_Count1 == 50)
+    {
+        Timer_Count1 = 0;
+        Speed_PI(&PID_Struct,EncVal_L,EncVal_R);
+    }
+
+    //##########        前后平衡环       ##################20ms
     //       ########  速度环 -> 角度环  #########
     if(Timer_Count2 == 10)
     {
@@ -65,16 +71,19 @@ void CCU60_CH1_IRQHandler (void)
         PID_Struct.Balance_expect_value = PID_Struct.Pid_Front_Speed_out + Roll_Angle_Mid;
         Front_Balance_PID(&PID_Struct,Roll,gyro[1]);
         Front_Speed_PI(&PID_Struct,EncVal_F);
+
     }
 
-    if(Timer_Count1 == 50)
-    {
-        Timer_Count1 = 0;
-        Speed_PI(&PID_Struct,EncVal_L,EncVal_R);
-    }
+    //############## 转向环PD控制##############50ms
+//    if(Timer_Count3 == 25)
+//    {
+//
+//        Timer_Count3 = 0;
+//    }
 
-    Pid_Out_L = PID_Struct.Pid_omegar_out + PID_Struct.Pid_Turn_Speed_out;
-    Pid_Out_R = PID_Struct.Pid_omegar_out - PID_Struct.Pid_Turn_Speed_out;
+
+    Pid_Out_L = PID_Struct.Pid_omegar_out + PID_Struct.Pid_Turn_Angle_out;
+    Pid_Out_R = PID_Struct.Pid_omegar_out - PID_Struct.Pid_Turn_Angle_out;
     Pid_Out_F = PID_Struct.Pid_Balance_out;
 
     Motor_Ctrl(Pid_Out_L,Pid_Out_R);
