@@ -50,13 +50,13 @@ int core0_main (void)
         k1 = KEY_Read(KEY1);
         if(k0==0)
         {
-            PID_Struct.Kd_Balance += 0.02;
+            PID_Struct.Turn_Angle_Ki += 1;
 //            PID_Struct.Kp_Front_Speed += 0.01;
             //PIDParam = PID_Struct.Kd_omegar;
         }
         if(k1==0)
         {
-            PID_Struct.Kd_Balance -= 0.01;
+            PID_Struct.Turn_Angle_Ki -= 1;
 //            PID_Struct.Kp_Front_Speed -= 0.01;
             //PIDParam = PID_Struct.Kd_omegar;
         }
@@ -71,22 +71,23 @@ void PIDparam_Init(void)
     PID_Struct.Kp_omegar = 50;//50;         +
     PID_Struct.Kd_omegar = 39;  //40        +
     PID_Struct.Kp_Angle = -90; //           -
-    PID_Struct.Kd_Angle = -4.4; //-4.4     -
-    PID_Struct.Ki_Angle = -1.81;//-1.825     -
+    PID_Struct.Kd_Angle = -4.3; //-4.4     -
+    PID_Struct.Ki_Angle = -1.805;//-1.825     -
     PID_Struct.Kp_Speed = -0.13;//           -
     PID_Struct.Ki_Speed = PID_Struct.Kp_Speed / 200;
 
-    PID_Struct.Kp_Balance = 222;//200      +
-    PID_Struct.Ki_Balance = 5.1;// 28        +
-    PID_Struct.Kd_Balance = 18.57;//17      +
-    PID_Struct.Kp_Front_Speed = -0.156;//-0.17    -
+    PID_Struct.Kp_Balance = 290;//222      +
+    PID_Struct.Ki_Balance = 30;// 5.1        +
+    PID_Struct.Kd_Balance = 15.8;//18.57      +
+    PID_Struct.Kp_Front_Speed = -0.06;//-0.17    -
     PID_Struct.Ki_Front_Speed = PID_Struct.Kp_Front_Speed / 200;
 
-    PID_Struct.Front_expect_value = 8;//8//-9.5;
+    PID_Struct.Front_expect_value = 5;//8//-9.5;
     PID_Struct.Turn_Exp_Angle = 5;
 
-    PID_Struct.Turn_Angle_Kp = 0;
-    PID_Struct.Turn_Angle_Kd = 0;
+    PID_Struct.Turn_Angle_Kp = -75;      // -
+    PID_Struct.Turn_Angle_Ki = 8;       // +
+    PID_Struct.Turn_Angle_Kd = 0;       // +
 
 }
 

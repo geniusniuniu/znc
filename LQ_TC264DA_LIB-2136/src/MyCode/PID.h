@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include "stdint.h"
 
-#define Pitch_Angle_Mid  -0.8
-#define Roll_Angle_Mid  3.95
+#define Pitch_Angle_Mid  -1.5
+#define Roll_Angle_Mid  4.1
 
 extern float Dynamic_zero_Roll ;
 extern float Dynamic_zero_Pitch ;

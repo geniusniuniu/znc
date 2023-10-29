@@ -167,19 +167,17 @@ void Front_Balance_PID(PID_Structure* pid,float Angle,float Gyro)
 
      if(pid->Front_expect_value != 0)
      {
-         /////dongtailingdian动态零点
-         Dynamic_zero_Roll = atan((0.0000185 * EncVal_F * EncVal_F)*K)*180/3.14159;
-         if(EncVal_F <= 15)
-             K = 1.02;
-         else
-             K = 1.0;
-         if(EncVal_F >= 35)
-             Dynamic_zero_Roll -= 0.05;
-         if(EncVal_F >= 45)
-             Dynamic_zero_Roll -= 0.20;
-         if(EncVal_F >= 70)
+         /////dongtailingdian动态零点    //////// 走的不够丝滑，继续调行进pid/////////////////////
+         Dynamic_zero_Roll = atan((0.00002 * EncVal_F * EncVal_F)*K)*180/3.14159;
+         if(EncVal_F <= 10 && EncVal_F >= 0)
+             Dynamic_zero_Roll += 0.4;
+         else if(EncVal_F <= 25 && EncVal_F >= 10)
+             Dynamic_zero_Roll += 0.3;
+         else if(EncVal_F < 0)
+             Dynamic_zero_Roll = 0;
+         if(EncVal_F >= 50)
              Stability_Flag = 1; //不稳定
-         Limit_Out(&Dynamic_zero_Roll,3,-3);
+         Limit_Out(&Dynamic_zero_Roll,3,0);
          pid->Balance_expect_value += Dynamic_zero_Roll;
      }
      Error = Angle - pid->Balance_expect_value;       //===求出平衡的角度中值 和机械相关
@@ -220,7 +218,9 @@ void Turn_Angle_PID(PID_Structure* pid,float Angle,short gyro)
     Error_Integral += Error;
     Limit_Out(&Error_Integral,30,-30);
 
-    pid->Pid_Turn_Angle_out =pid->Turn_Angle_Kp*Error + pid->Turn_Angle_Kd * gyro ;
+    pid->Pid_Turn_Angle_out =pid->Turn_Angle_Kp*Error +
+                                pid->Turn_Angle_Ki * Error_Integral +
+                                       pid->Turn_Angle_Kd * gyro ;
 }
 
 void Turn_Speed_PID(PID_Structure* pid,float Enc_L,float Enc_R)
