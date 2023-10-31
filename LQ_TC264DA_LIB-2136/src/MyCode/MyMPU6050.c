@@ -4,8 +4,9 @@
 #include "LQ_MPU6050_DMP.h"
 #include "LQ_TFT18.h"
 #include "stdio.h"
-#include "PID.h"
 #include "My_Timer.h"
+#include "MyEncoder.h"
+#include "PID.h"
 
 short gyro0_last;
 short gyro1_last;
@@ -53,8 +54,6 @@ void Stability_Judge(void)
     }
     else
         Stability_Flag = 0;
-
-    Param_Change();
 
     gyro0_last = gyro[0];
     gyro1_last = gyro[1];

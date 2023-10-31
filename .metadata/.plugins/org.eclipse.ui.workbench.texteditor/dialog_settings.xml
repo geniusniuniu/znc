@@ -8,6 +8,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="Param_Change"/>
 			<item value="Stability_Flag"/>
 			<item value="Safe_Angle"/>
 			<item value="Limit"/>
@@ -22,7 +23,6 @@
 			<item value="Calculates_median"/>
 			<item value=" Calculates"/>
 			<item value=" Calculates_median"/>
-			<item value=" mid_line"/>
 		</list>
 		<list key="replacehistory">
 		</list>

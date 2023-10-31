@@ -5258,3 +5258,834 @@ C Model Exception: C Model Status [元素MyEncoder.c不存在]
 
 !ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-29 21:37:14.791
 !MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3676 milliseconds. (incremental boost)
+!SESSION 2023-10-30 09:58:41.662 -----------------------------------------------
+eclipse.buildId=1.7.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 09:59:32.248
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3327 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:14:23.916
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2183 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:15:20.316
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1966 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:18:18.408
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1889 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:18:47.553
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1997 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:18:58.936
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 499 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:21:03.620
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1885 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:26:53.840
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1891 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:27:17.823
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1937 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:35:41.807
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1967 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:51:51.269
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2209 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:53:32.582
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1875 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 10:56:31.912
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1904 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 11:16:50.059
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2024 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 11:24:31.148
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1832 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 11:42:08.085
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1964 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 11:42:24.770
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 11:42:24.770
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 12:03:58.385
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1864 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 12:11:04.428
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1898 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 12:30:31.853
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1882 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 12:52:17.160
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1928 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 13:20:18.567
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1882 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 19:45:58.885
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2120 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 19:46:17.171
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 477 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:13:03.168
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:13:03.168
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:14:18.351
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3352 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:15:41.552
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3602 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:20:42.512
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3551 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:20:59.847
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:20:59.847
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:21:51.121
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3432 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:24:13.009
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3576 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:26:12.418
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3644 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:26:41.980
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3301 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:26:59.789
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 502 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:27:10.238
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 453 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:27:19.254
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 896 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:33:00.430
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3657 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:46:46.961
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3687 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:51:41.036
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3515 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:55:10.394
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1979 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:58:12.479
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2163 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:58:29.554
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:58:29.564
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:58:39.519
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 573 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:58:53.239
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 414 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:59:12.194
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 411 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 20:59:27.851
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 437 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:05:15.727
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1895 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:06:30.868
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1861 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:12:40.559
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1948 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:12:58.530
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 414 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:29:54.027
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1942 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:38:26.364
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1882 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:42:29.835
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1926 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:42:50.458
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 399 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:45:39.354
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1894 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:49:18.864
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1901 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:51:11.010
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1915 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:54:25.529
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1903 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:59:29.495
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1885 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 21:59:59.406
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1851 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 22:03:34.223
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1874 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 22:03:42.695
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 22:03:42.695
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 22:05:28.402
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1876 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 22:30:04.104
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1921 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 22:31:33.152
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2000 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 22:32:40.084
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1879 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 22:35:53.124
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2037 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 22:39:51.180
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1895 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 22:42:53.778
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1928 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 22:48:37.142
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1897 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 23:08:29.958
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1922 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 23:12:10.953
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1853 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-30 23:15:54.315
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1948 milliseconds. (incremental boost)
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-10-30 23:16:02.745
+!MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-10-30 23:16:03.015
+!MESSAGE 在“Flash device”期间发生了内部错误。
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.ui.buildconsole.MultiBuildConsoleAdapter.getErrorStream(MultiBuildConsoleAdapter.java:112)
+	at org.eclipse.cdt.internal.ui.buildconsole.CBuildConsole.getErrorStream(CBuildConsole.java:78)
+	at com.infineon.aurix.buildsystem.flash.AURIXFlasher$1.run(AURIXFlasher.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-10-31 12:42:08.335 -----------------------------------------------
+eclipse.buildId=1.7.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-10-31 12:42:16.056
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 12:43:36.121
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3109 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 12:45:43.723
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3719 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 12:48:01.679
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3560 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 12:48:13.312
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 12:48:13.313
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 12:48:23.513
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 556 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 12:53:34.828
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3466 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 12:56:55.084
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3459 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:05:10.142
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3365 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:10:04.143
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3452 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:11:33.022
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3394 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:19:34.740
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3270 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:20:56.178
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3380 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:23:18.064
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3246 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:24:46.462
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:24:46.462
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:27:15.148
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3180 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:29:23.570
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3211 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:33:25.288
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3286 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:36:58.522
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3534 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:39:59.392
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3453 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:40:25.026
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 806 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:43:27.148
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3625 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:54:12.104
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3406 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:54:29.536
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:54:29.536
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:57:35.986
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3277 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 13:59:00.364
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3238 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:00:07.697
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3224 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:02:43.973
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3270 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:03:08.710
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3327 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:04:12.432
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3280 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:06:44.222
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3175 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:08:46.153
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3276 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:10:27.494
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3251 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:10:53.981
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 460 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:11:57.370
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3364 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:14:14.561
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3209 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:14:41.679
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 765 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:16:40.475
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3651 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:20:21.487
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3312 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:26:52.637
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3261 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:28:42.445
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3192 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:32:41.770
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3294 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:34:39.629
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3304 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 14:38:54.630
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3450 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:08:31.146
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3422 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:08:44.068
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2266 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:13:26.299
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3342 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:13:52.464
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 858 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:14:13.839
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 768 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:15:23.985
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3352 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:16:17.433
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3214 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:18:26.127
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:18:26.127
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:19:32.857
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3206 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:21:43.600
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3205 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:22:56.305
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3280 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:27:19.993
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3227 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:31:29.448
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3244 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:33:00.419
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3390 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:33:12.676
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:33:12.676
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:33:25.584
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2082 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:34:32.523
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3214 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:36:40.191
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3232 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:36:52.792
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:36:52.792
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:42:59.852
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3288 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:45:52.080
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3253 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:55:07.554
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3394 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:55:42.855
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3202 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 15:56:17.565
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3257 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 16:36:57.675
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3253 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 16:38:28.446
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3306 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 16:39:50.328
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3182 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 16:41:20.662
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3452 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 16:44:19.664
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3423 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 16:44:42.095
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3265 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 16:46:20.895
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3223 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 16:50:40.319
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3240 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 16:54:32.381
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3376 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 16:57:07.515
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3259 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 16:58:44.528
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3193 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:01:06.057
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 808 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:03:07.744
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3524 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:04:33.232
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3376 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:14:07.391
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3202 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:21:26.755
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3523 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:24:12.890
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3242 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:25:54.290
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3599 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:30:24.183
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3453 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:38:51.223
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3318 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:43:28.875
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3467 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:52:26.261
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3354 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:52:47.047
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 582 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:58:33.148
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3294 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:59:28.486
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3638 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 17:59:49.764
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 811 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:00:35.756
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3468 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:00:53.643
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3339 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:04:26.953
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3234 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:04:45.463
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:04:45.463
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:07:23.065
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3458 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:07:39.307
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:07:39.307
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:10:03.221
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3266 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:23:40.230
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3311 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:25:20.889
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3265 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:25:38.448
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 427 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:27:06.556
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3395 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:29:28.653
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3386 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:33:24.371
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3166 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:34:04.867
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 3258 milliseconds. (incremental boost)
+!SESSION 2023-10-31 18:53:28.721 -----------------------------------------------
+eclipse.buildId=1.7.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 18:59:05.630
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 2563 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:00:19.014
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1889 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:00:39.316
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1865 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:12:05.212
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1870 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:13:55.316
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1850 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:14:40.513
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1845 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:15:09.436
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1857 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:15:50.152
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1890 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:16:25.712
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1835 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:17:46.562
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1821 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:18:34.687
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1862 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:19:46.651
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1834 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:19:55.587
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:19:55.587
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:20:07.298
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 417 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:20:40.569
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1820 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:22:58.032
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1870 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:24:16.158
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:24:16.158
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:26:04.739
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1877 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:26:41.500
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:26:41.500
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:28:24.974
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1872 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:28:37.641
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:28:37.641
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:30:40.770
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1881 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:33:12.979
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1840 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:34:26.482
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:34:26.482
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:37:24.673
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1848 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:38:01.461
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1825 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:42:44.379
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1857 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:45:56.067
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1820 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:47:02.146
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1890 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:47:13.696
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1900 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:49:42.667
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1817 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:50:50.380
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1884 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:51:21.007
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1832 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:53:22.017
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1812 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:55:03.541
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1835 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:58:42.901
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1811 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:59:18.695
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1822 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 19:59:53.074
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1806 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:00:49.280
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1803 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:01:24.453
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1802 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:02:11.869
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1809 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:05:18.380
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1818 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:05:49.982
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1803 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:10:07.359
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1877 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:10:42.037
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1873 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:15:50.800
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1838 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:17:40.904
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1860 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:18:09.670
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 413 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:24:33.061
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1859 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:25:35.335
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1796 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:26:08.780
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1813 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:31:51.194
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1840 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:33:36.503
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1784 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:34:29.582
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1804 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:35:43.833
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1804 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:36:17.497
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1810 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:39:57.074
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1820 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:40:32.732
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1827 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:43:58.788
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1811 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:47:56.080
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1856 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:48:17.438
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 420 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:48:30.868
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 392 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:49:21.541
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1830 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:52:05.750
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1815 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:52:24.029
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1810 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:52:54.497
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1800 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2023-10-31 20:54:45.967
+!MESSAGE Boosting configuration Debug of project LQ_TC264DA_LIB-2136 boosted in 1801 milliseconds. (incremental boost)

@@ -1,0 +1,132 @@
+#include <IfxCpu.h>
+#include <IfxScuCcu.h>
+#include <IfxScuWdt.h>
+#include <IfxStm.h>
+#include <IfxStm_reg.h>
+#include <stdio.h>
+
+
+#include "LQ_UART.h"
+#include "LQ_GPIO_KEY.h"
+#include "src/APP/LQ_GPIO_LED.h"
+#include "src/APP/LQ_TFT18.h"
+#include "src/Driver/include.h"
+#include "src/Driver/LQ_STM.h"
+#include "src/User/LQ_MotorServo.h"
+#include "src/MyCode/MyPWM.h"
+#include "src/MyCode/MyEncoder.h"
+#include "src/MyCode/MyMPU6050.h"
+#include "../Driver/LQ_GPT12_ENC.h"
+#include "src/MyCode/My_Timer.h"
+#include "LQ_IIC_Gyro.h"
+#include "src/MyCode/PID.h"
+#include "LQ_CAMERA.h"
+
+#pragma section all "cpu0_dsram"
+
+App_Cpu0 g_AppCpu0;                       // brief CPU 0 global data
+IfxCpu_mutexLock mutexCpu0InitIsOk = 1;   // CPU0 初始化完成标志位
+volatile char mutexCpu0TFTIsOk=0;         // CPU1 0占用/1释放 TFT
+
+char k0,k1;
+
+void CPU_Init(void);
+void PIDparam_Init(void);
+void Misc_Init(void);
+
+int core0_main (void)
+{
+    Misc_Init();
+    PIDparam_Init();
+
+    while(1)    //主循环
+    {
+        Show_EncVal();
+        Show_MPUVal();
+
+        Param_Change();
+
+        k0 = KEY_Read(KEY0);
+        k1 = KEY_Read(KEY1);
+        if(k0==0)
+        {
+            PID_Struct.Kp_Front_Speed += 0.02;
+//            PID_Struct.Kp_Front_Speed += 0.01;
+            //PIDParam = PID_Struct.Kd_omegar;
+        }
+        if(k1==0)
+        {
+            PID_Struct.Kp_Front_Speed -= 0.02;
+//            PID_Struct.Kp_Front_Speed -= 0.01;
+            //PIDParam = PID_Struct.Kd_omegar;
+        }
+
+    }
+    return 0;
+}
+
+
+void PIDparam_Init(void)
+{
+    PID_Struct.Kp_omegar = 50;//50;         +
+    PID_Struct.Kd_omegar = 39;  //40        +
+    PID_Struct.Kp_Angle = -90; //           -
+    PID_Struct.Kd_Angle = -4.3; //-4.4      -
+    PID_Struct.Ki_Angle = -1.805;//-1.825   -
+    PID_Struct.Kp_Speed = -0.13;//          -
+    PID_Struct.Ki_Speed = PID_Struct.Kp_Speed / 200;
+
+    PID_Struct.Kp_Balance = 210;//270      +
+    PID_Struct.Ki_Balance = 0;// 28        +
+    PID_Struct.Kd_Balance = 6.6;//16.0     +
+    PID_Struct.Kp_Front_Speed = 0;//-0.08    -
+    PID_Struct.Ki_Front_Speed = PID_Struct.Kp_Front_Speed / 200;
+    PID_Struct.Front_expect_value = 0;//-9.5;
+
+    PID_Struct.Turn_Exp_Angle = 3;
+
+
+}
+
+
+void Misc_Init(void)
+{
+    CPU_Init();
+    // 串口P14.0管脚输出,P14.1输入，波特率115200
+    //UART_InitConfig(UART0_RX_P14_1,UART0_TX_P14_0, 115200);
+    GPIO_KEY_Init();
+    MPU_Init();
+    PID_Init(&PID_Struct);
+    Motor_Init();
+    GPIO_LED_Init();
+    My_EncInit();
+    MyTimer_Init();
+    TFTSPI_Init(0);        //LCD初始化 0：横屏 1:竖屏
+    TFTSPI_CLS(u16BLUE);   //蓝色屏幕
+}
+
+void CPU_Init(void)
+{
+    // 关闭CPU总中断
+    IfxCpu_disableInterrupts();
+
+    // 关闭看门狗，如果不设置看门狗喂狗需要关闭
+    IfxScuWdt_disableCpuWatchdog(IfxScuWdt_getCpuWatchdogPassword());
+    IfxScuWdt_disableSafetyWatchdog(IfxScuWdt_getSafetyWatchdogPassword());
+
+    // 读取总线频率
+    g_AppCpu0.info.pllFreq = IfxScuCcu_getPllFrequency();
+    g_AppCpu0.info.cpuFreq = IfxScuCcu_getCpuFrequency(IfxCpu_getCoreIndex());
+    g_AppCpu0.info.sysFreq = IfxScuCcu_getSpbFrequency();
+    g_AppCpu0.info.stmFreq = IfxStm_getFrequency(&MODULE_STM0);
+
+    // 开启CPU总中断
+    IfxCpu_enableInterrupts();
+
+    // 通知CPU1，CPU0初始化完成
+    IfxCpu_releaseMutex(&mutexCpu0InitIsOk);
+    // 切记CPU0,CPU1...不可以同时开启屏幕显示，否则冲突不显示
+    mutexCpu0TFTIsOk=0;         // CPU1： 0占用/1释放 TFT
+}
+
+#pragma section all restore
