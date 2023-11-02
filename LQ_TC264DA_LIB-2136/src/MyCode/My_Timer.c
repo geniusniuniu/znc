@@ -75,8 +75,8 @@ void CCU60_CH1_IRQHandler (void)
     //############## 转向环PD控制##############50ms
     if(Timer_Count3 == 15)
     {
-        Turn_Angle_PID(&PID_Struct,Yaw,gyro[2]);
         Timer_Count3 = 0;
+        Turn_Angle_PID(&PID_Struct,Yaw,gyro[2]);
     }
 
 
@@ -89,6 +89,8 @@ void CCU60_CH1_IRQHandler (void)
 
     Motor_Ctrl(Pid_Out_L,Pid_Out_R);
     Front_Motor_Ctrl(&Pid_Out_F);
+
+
 
 }
 

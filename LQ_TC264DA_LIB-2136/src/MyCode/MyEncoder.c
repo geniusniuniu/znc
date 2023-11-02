@@ -27,20 +27,20 @@ void Get_EncVal(void)
 
 void Show_EncVal(void)
 {
-   // 鏄剧ずPID
+
 //   sprintf(txt, "%.0f", PID_Struct.Kp_Angle);
 //   TFTSPI_P8X16Str(1, 0, txt, u16WHITE, u16BLACK);
-   sprintf(txt, "%.3f", PID_Struct.Kd_Balance);
+   sprintf(txt, "%.3f", PID_Struct.Turn_Angle_Ki);
    TFTSPI_P8X16Str(1, 0, txt, u16WHITE, u16BLACK);
-   sprintf(txt, "%.5f", Dynamic_zero_Roll);
-   TFTSPI_P8X16Str(8, 0, txt, u16WHITE, u16BLACK);
+//   sprintf(txt, "%.5f", Dynamic_zero_Roll);
+//   TFTSPI_P8X16Str(8, 0, txt, u16WHITE, u16BLACK);
    sprintf(txt, "%.3f", Dynamic_zero_Pitch);
    TFTSPI_P8X16Str(1, 7, txt, u16WHITE, u16BLACK);
 
    //鏄剧ず  鍔ㄩ噺杞� 鍜� 琛岃繘鐢垫満 PWM
    sprintf(txt, "PWM: %05.2f", Pid_Out_L);
    TFTSPI_P8X16Str(1, 1, txt, u16WHITE, u16BLACK);       //閿熻鍑ゆ嫹閿熸枻鎷烽敓鏂ゆ嫹绀�
-   sprintf(txt, "PWM: %05.2f", Pid_Out_R);
+   sprintf(txt, "PWM: %05.2f", Pid_Out_F);
    TFTSPI_P8X16Str(1, 2, txt, u16WHITE, u16BLACK);       //閿熻鍑ゆ嫹閿熸枻鎷烽敓鏂ゆ嫹绀�
 
 

@@ -66,10 +66,6 @@ void PID_Init(PID_Structure *pid)
     pid->Pid_Turn_Angle_out = 0;
     pid->Turn_Exp_Angle = 0;
 
-    pid->Turn_Speed_Kp = 0;
-    pid->Turn_Speed_Ki = 0;
-    pid->Turn_Speed_Kd = 0;
-    pid->Pid_Turn_Speed_out = 0;
 }
 
 /*
@@ -98,16 +94,14 @@ void Param_Change(void)
     if(Stability_Flag == 0)
     {
         K = 1;
-        PID_Struct.Turn_Angle_Kp = -80;              // -80
-        PID_Struct.Turn_Angle_Ki = -8;             // -8
-        PID_Struct.Turn_Angle_Kd = -1.5;             // -1.6
+                    // -1.6
 
     }
     else if(Stability_Flag == 1)
     {
-        PID_Struct.Turn_Angle_Kp = 0;              // -
-        PID_Struct.Turn_Angle_Ki = 0;             // -
-        PID_Struct.Turn_Angle_Kd = 0;             // -
+//        PID_Struct.Turn_Angle_Kp = 0;              // -
+//        PID_Struct.Turn_Angle_Ki = 0;             // -
+//        PID_Struct.Turn_Angle_Kd = 0;             // -
         K = 0;
     }
 }
@@ -127,17 +121,17 @@ void Angle_PID(PID_Structure* pid,float Angle,float Gyro_x)
 {
     static float Error_Integral;
     float Error;
-//    if(pid->Front_expect_value != 0)
-//    {
-//        /////dongtailingdian动态零点，//转固定半径的圆
-//        Dynamic_zero_Pitch = atan((0.00002 * EncVal_F * EncVal_F)*K)*180/3.14159;
-//
+    if(pid->Front_expect_value != 0)
+    {
+        /////dongtailingdian动态零点，//转固定半径的圆
+        Dynamic_zero_Pitch = atan((0.00001 * EncVal_F * EncVal_F)*0.6*K)*180/3.14159;
+
 //        if(Angle > pid->Turn_Exp_Angle)    //左偏
-//            pid->Angle_expect_value += Dynamic_zero_Pitch;
+            pid->Angle_expect_value += Dynamic_zero_Pitch;
 //        else if(Angle < pid->Turn_Exp_Angle)    //右偏
 //            pid->Angle_expect_value -= Dynamic_zero_Pitch;
-//        Limit_Out(&Dynamic_zero_Pitch,3,-3);
-//    }
+        Limit_Out(&Dynamic_zero_Pitch,3,-3);
+    }
     Error = Angle - pid->Angle_expect_value;
     Error_Integral += Error;
     Limit_Out(&Error_Integral,100,-100); //如果系统存在较大的干扰或扰动，可以设置较小的积分限幅，以减小积分项的作用，防止系统的超调和不稳定。
@@ -175,14 +169,13 @@ void Front_Balance_PID(PID_Structure* pid,float Angle,float Gyro)
      if(PID_Struct.Front_expect_value != 0)
      {
          /////dongtailingdian动态零点
-         Dynamic_zero_Roll = atan((0.000023 * EncVal_F * EncVal_F)*K)*180/3.14159;
-
-         Limit_Out(&Dynamic_zero_Roll,4,0.1);  // 19-0.41
-         if(EncVal_F < 0)
+         if(EncVal_F <= 0)
               Dynamic_zero_Roll = 0.0;
-         PID_Struct.Balance_expect_value += Dynamic_zero_Roll;
+         else
+         Dynamic_zero_Roll = atan((0.000013 * EncVal_F * EncVal_F)*K)*180/3.14159;
+         Limit_Out(&Dynamic_zero_Roll,4,0.0);  // 19-0.41
      }
-     Error = Angle - pid->Balance_expect_value;
+     Error = Angle - pid->Balance_expect_value - Dynamic_zero_Roll ;
      Error_Integral += Error;
      Limit_Out(&Error_Integral,30, -30);
 
@@ -197,9 +190,8 @@ void Front_Speed_PI(PID_Structure* pid,int Enc_Front)
     static float Encoder_Last;
     Encoder = (float)Enc_Front - pid->Front_expect_value;
     Encoder = 0.3 * Encoder + Encoder_Last * 0.7;
-    Encoder_Integral += Encoder - pid->Front_expect_value;
+    Encoder_Integral += Encoder;
     Encoder_Last = Encoder;
-
     Limit_Out(&Encoder_Integral, 1000, -1000);
     //if(Stop_Flag == 1) {Encoder = 0; Encoder_Integral = 0;}
     pid->Pid_Front_Speed_out = Encoder * pid->Kp_Front_Speed +
@@ -219,18 +211,11 @@ void Turn_Angle_PID(PID_Structure* pid,float Angle,short gyro)
     Error_Integral += Error;
     Limit_Out(&Error_Integral,30,-30);
 
-    pid->Pid_Turn_Angle_out =pid->Turn_Angle_Kp*Error +
-                                pid->Turn_Angle_Ki * Error_Integral +
-                                       pid->Turn_Angle_Kd * gyro ;
+    pid->Pid_Turn_Angle_out = pid->Turn_Angle_Kp*Error +
+                                     pid->Turn_Angle_Ki * Error_Integral + pid->Turn_Angle_Kd * gyro ;
     Limit_Out(&pid->Pid_Turn_Angle_out,3500,-3500);
 }
 
-//void Turn_Speed_PID(PID_Structure* pid,float Enc_L,float Enc_R)
-//{
-//    float Error;
-//    Error = Enc_L-Enc_R;
-//    pid->Pid_Turn_Speed_out = pid->Turn_Speed_Kp * Error;
-//}
 
 
 float Motor_Ctrl(float motorA, float motorB)
@@ -252,13 +237,15 @@ float Motor_Ctrl(float motorA, float motorB)
 
 float Front_Motor_Ctrl (float *motorC)
 {
-    if (*motorC > 0)         Motor_SetDir(P32_4,1); //MT1N
-    else                    Motor_SetDir(P32_4,0); //MT1N
+
+    if (*motorC > 0)        { Motor_SetDir(P32_4,1);} //MT1N
+    else                    { Motor_SetDir(P32_4,0);} //MT1N
 
     *motorC = My_Abs(*motorC);
-    Limit_Out(motorC,3100,260);
+    Limit_Out(motorC,3000,260);
     if(Pitch > Danger_Angle || Pitch < -Danger_Angle)
         *motorC = 0;
+
     Motor_SetDuty(MOTOR1_P,*motorC);
     return *motorC;
 }
