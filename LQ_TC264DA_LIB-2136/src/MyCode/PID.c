@@ -121,17 +121,17 @@ void Angle_PID(PID_Structure* pid,float Angle,float Gyro_x)
 {
     static float Error_Integral;
     float Error;
-    if(pid->Front_expect_value != 0)
-    {
-        /////dongtailingdian动态零点，//转固定半径的圆
-        Dynamic_zero_Pitch = atan((0.00001 * EncVal_F * EncVal_F)*0.6*K)*180/3.14159;
-
-//        if(Angle > pid->Turn_Exp_Angle)    //左偏
-            pid->Angle_expect_value += Dynamic_zero_Pitch;
-//        else if(Angle < pid->Turn_Exp_Angle)    //右偏
-//            pid->Angle_expect_value -= Dynamic_zero_Pitch;
-        Limit_Out(&Dynamic_zero_Pitch,3,-3);
-    }
+//    if(pid->Front_expect_value != 0)
+//    {
+//        /////dongtailingdian动态零点，//转固定半径的圆
+//        Dynamic_zero_Pitch = atan((0.00001 * EncVal_F * EncVal_F)*0.6*K)*180/3.14159;
+//
+////        if(Angle > pid->Turn_Exp_Angle)    //左偏
+//            pid->Angle_expect_value += Dynamic_zero_Pitch;
+////        else if(Angle < pid->Turn_Exp_Angle)    //右偏
+////            pid->Angle_expect_value -= Dynamic_zero_Pitch;
+//        Limit_Out(&Dynamic_zero_Pitch,3,-3);
+//    }
     Error = Angle - pid->Angle_expect_value;
     Error_Integral += Error;
     Limit_Out(&Error_Integral,100,-100); //如果系统存在较大的干扰或扰动，可以设置较小的积分限幅，以减小积分项的作用，防止系统的超调和不稳定。
@@ -164,21 +164,23 @@ void Speed_PI(PID_Structure* pid,float Enc_Left,float Enc_Right)
 void Front_Balance_PID(PID_Structure* pid,float Angle,float Gyro)
 {
      float Error;
-     static float Error_Integral=0;
-
+     static float Error_Integral=0,D_zero_R_Last;
      if(PID_Struct.Front_expect_value != 0)
      {
          /////dongtailingdian动态零点
-         if(EncVal_F <= 0)
-              Dynamic_zero_Roll = 0.0;
+         if(EncVal_F < 0)
+         {
+             Dynamic_zero_Roll = 0.0;
+         }
          else
-         Dynamic_zero_Roll = atan((0.000013 * EncVal_F * EncVal_F)*K)*180/3.14159;
-         Limit_Out(&Dynamic_zero_Roll,4,0.0);  // 19-0.41
+         Dynamic_zero_Roll = atan((0.000014 * EncVal_F * EncVal_F)*K)*180/3.14159;
+         Dynamic_zero_Roll = 0.3*Dynamic_zero_Roll + 0.7*D_zero_R_Last;
+         D_zero_R_Last = Dynamic_zero_Roll;
+         Limit_Out(&Dynamic_zero_Roll,1.5,0);  // 19-0.41
      }
      Error = Angle - pid->Balance_expect_value - Dynamic_zero_Roll ;
      Error_Integral += Error;
-     Limit_Out(&Error_Integral,30, -30);
-
+     Limit_Out(&Error_Integral,15, -15);
      pid->Pid_Balance_out = pid->Kp_Balance*Error +
                                  pid->Ki_Balance*Error_Integral +
                                      Gyro* pid->Kd_Balance/10;   //获取最终数值
