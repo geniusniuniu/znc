@@ -44,20 +44,20 @@ int core0_main (void)
         Show_EncVal();
         Show_MPUVal();
 
-        Param_Change();
+        //Param_Change();
 
         k0 = KEY_Read(KEY0);
         k1 = KEY_Read(KEY1);
         if(k0==0)
         {
-            PID_Struct.Kp_Balance += 0.1;
+            PID_Struct.Ki_Balance += 0.1;
 //            param += 5;
 //            PID_Struct.Kp_Front_Speed += 0.01;
             //PIDParam = PID_Struct.Kd_omegar;
         }
         if(k1==0)
         {
-            PID_Struct.Kp_Balance -= 0.1;
+            PID_Struct.Ki_Balance -= 0.1;
 //            param -= 5;
 //            PID_Struct.Kp_Front_Speed -= 0.01;
             //PIDParam = PID_Struct.Kd_omegar;
@@ -70,19 +70,19 @@ int core0_main (void)
 void PIDparam_Init(void)
 {
     PID_Struct.Kp_omegar = 50;//50;         +
-    PID_Struct.Kd_omegar = 39;  //40        +
+    PID_Struct.Kd_omegar = 41.5;  //40        +
     PID_Struct.Kp_Angle = -90; //           -
-    PID_Struct.Kd_Angle = -4.32; //-4.4      -
+    PID_Struct.Kd_Angle = -4.3; //-4.4      -
     PID_Struct.Ki_Angle = -1.80;//-1.825   -
     PID_Struct.Kp_Speed = -0.13;//          -
     PID_Struct.Ki_Speed = PID_Struct.Kp_Speed / 200;
 
-    PID_Struct.Kp_Balance = 270;//262
-    PID_Struct.Ki_Balance = 13.1;//11.5;// 11.6
-    PID_Struct.Kd_Balance = 18.5;//19.3;//20.3
-    PID_Struct.Kp_Front_Speed = -0.14;
+    PID_Struct.Kp_Balance = 190;
+    PID_Struct.Ki_Balance = 2.5;
+    PID_Struct.Kd_Balance = 12.4;       ////////遇到障碍会抖//////减少抬头幅度
+    PID_Struct.Kp_Front_Speed = -0.12;//-0.12;  /// -
     PID_Struct.Ki_Front_Speed = PID_Struct.Kp_Front_Speed / 200; //240
-    PID_Struct.Front_expect_value = 10;//
+    PID_Struct.Front_expect_value = 5;//期望速度
 
     PID_Struct.Turn_Angle_Kp = -80;              // -80
     PID_Struct.Turn_Angle_Ki = -8;               // -8

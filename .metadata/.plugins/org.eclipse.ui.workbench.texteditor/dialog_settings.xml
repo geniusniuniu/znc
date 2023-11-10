@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="Stability_Flag"/>
+		<item key="selection" value="Kd_Balance"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="Kd_Balance"/>
+			<item value="Front_expect_value"/>
 			<item value="Param_Change"/>
 			<item value="Stability_Flag"/>
 			<item value="Safe_Angle"/>
@@ -21,8 +23,6 @@
 			<item value="median"/>
 			<item value="Pitch_Angle_Mid"/>
 			<item value="Calculates_median"/>
-			<item value=" Calculates"/>
-			<item value=" Calculates_median"/>
 		</list>
 		<list key="replacehistory">
 		</list>

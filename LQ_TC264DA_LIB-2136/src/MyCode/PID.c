@@ -124,13 +124,14 @@ void Angle_PID(PID_Structure* pid,float Angle,float Gyro_x)
 //    if(pid->Front_expect_value != 0)
 //    {
 //        /////dongtailingdian动态零点，//转固定半径的圆
-//        Dynamic_zero_Pitch = atan((0.00001 * EncVal_F * EncVal_F)*0.6*K)*180/3.14159;
+//        Dynamic_zero_Pitch = atan((0.00000565 * EncVal_F * EncVal_F)*0.6*K)*180/3.14159;
 //
 ////        if(Angle > pid->Turn_Exp_Angle)    //左偏
+//            Limit_Out(&Dynamic_zero_Pitch,4,-4);
 //            pid->Angle_expect_value += Dynamic_zero_Pitch;
 ////        else if(Angle < pid->Turn_Exp_Angle)    //右偏
 ////            pid->Angle_expect_value -= Dynamic_zero_Pitch;
-//        Limit_Out(&Dynamic_zero_Pitch,3,-3);
+//
 //    }
     Error = Angle - pid->Angle_expect_value;
     Error_Integral += Error;
@@ -173,14 +174,14 @@ void Front_Balance_PID(PID_Structure* pid,float Angle,float Gyro)
              Dynamic_zero_Roll = 0.0;
          }
          else
-         Dynamic_zero_Roll = atan((0.000014 * EncVal_F * EncVal_F)*K)*180/3.14159;
-         Dynamic_zero_Roll = 0.3*Dynamic_zero_Roll + 0.7*D_zero_R_Last;
+         Dynamic_zero_Roll = atan((0.000005* EncVal_F * EncVal_F)*K)*180/3.14159;
+         Dynamic_zero_Roll = 0.2*Dynamic_zero_Roll + 0.8*D_zero_R_Last;
          D_zero_R_Last = Dynamic_zero_Roll;
          Limit_Out(&Dynamic_zero_Roll,1.5,0);  // 19-0.41
      }
      Error = Angle - pid->Balance_expect_value - Dynamic_zero_Roll ;
      Error_Integral += Error;
-     Limit_Out(&Error_Integral,15, -15);
+     Limit_Out(&Error_Integral,30, -30);
      pid->Pid_Balance_out = pid->Kp_Balance*Error +
                                  pid->Ki_Balance*Error_Integral +
                                      Gyro* pid->Kd_Balance/10;   //获取最终数值
@@ -209,10 +210,9 @@ void Turn_Angle_PID(PID_Structure* pid,float Angle,short gyro)
     static float Error_Integral;
     float Error;
 
-    Error = Angle - pid->Turn_Exp_Angle;
+    Error = Angle - pid->Turn_Exp_Angle;  //10
     Error_Integral += Error;
     Limit_Out(&Error_Integral,30,-30);
-
     pid->Pid_Turn_Angle_out = pid->Turn_Angle_Kp*Error +
                                      pid->Turn_Angle_Ki * Error_Integral + pid->Turn_Angle_Kd * gyro ;
     Limit_Out(&pid->Pid_Turn_Angle_out,3500,-3500);
